@@ -1,0 +1,17 @@
+---
+title: "Teaching"
+---
+
+- Statistical computing I
+
+- Statistical computing II
+
+- Regression Analysis
+
+- Econometrics
+
+- Time series analysis
+
+- Probability Theory
+
+- Statistical Inference

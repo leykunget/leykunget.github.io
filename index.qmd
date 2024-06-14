@@ -1,0 +1,59 @@
+---
+title: "Leykun Getaneh Gebeye"
+#resources: resume.pdf
+about:
+  id: ppc
+#  template: trestles
+  template: jolla
+#  template: solana
+#  template: broadside
+#  template: marquee
+  image: img/profile_pic.png
+#  image: img/R.jpg
+  image-width: 15em
+  image-shape: round
+  links:
+    - icon: envelope
+      text: email
+      href: mailto:leyk.get@gmail.com
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com
+    - icon: github
+      text: Github
+      href: https://github.com
+    # - icon: file-text
+    #   text: resume
+    #   href: resume.pdf
+    - icon: linkedin
+      text: Linkedin
+      href: https://linkedin.com
+---
+
+::: {#ppc}
+Leykun Getaneh Gebeye is a senior lecturer, data scientist, and statistician with expertise in machine learning, time series analysis, and big data analysis. He holds a BSc and a MSc in Statistics, and is certified a data science specialization from John Hopkins University through Coursera. With over 7 years of experience as a lecturer at Wollo University in Ethiopia, Leykun has extensive experience in teaching, advising, and conducting research. He actively contributes to training programs and workshops related to statistical software and is proficient in a wide range of statistical software and programming languages, including R and Python. This proficiency enables him to effectively collect, clean, analyze, and visualize data.
+
+His research interests include:
+
+-   machine learning,
+-   big data analysis,\
+-   disease prediction,\
+-   longitudinal data analysis,\
+-   survival analysis, deep learning on survival analysis,\
+-   joint modeling, and\
+-   nutrition.
+
+## Education
+
+Addis Ababa University \| Addis Ababa, Ethiopia\
+MSc in Statistics \| Sept 2010 - Jan 2013
+
+University of Gondar \| Gondar, Ethiopia\
+BSc in Statistics \| Sept 2006 - July 2008
+
+## Experience
+
+Lecturer \| Data Scientist \| Wollo University \| Sept 2016 - present
+
+GA-I \| GA-II \| Lecturer \| Aksum University \| Feb 2013 - Aug 2016
+:::
