@@ -21,13 +21,13 @@ about:
       href: https://twitter.com
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/leykunget/
     # - icon: file-text
     #   text: resume
     #   href: resume.pdf
     - icon: linkedin
       text: Linkedin
-      href: https://linkedin.com
+      href: https://linkedin.com/in/leykun-getaneh-gebeye-39a17890
 ---
 
 ::: {#ppc}

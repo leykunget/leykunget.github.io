@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Leykun Getaneh Personal Website"
+  title: "Leykun Getaneh"
   navbar:
     left:
       - file: index.qmd
@@ -13,7 +13,7 @@ website:
       # - file: teaching.qmd
       #   text: "Teaching"
       - sidebar:teaching
-        
+
     tools:
       - icon: twitter
         href: https://twitter.com/
@@ -44,10 +44,23 @@ website:
         
 format:
   html:
-    theme: cerulean
-#    theme: cosmo
+    grid: 
+      body-width: 2000px
+      sidebar-width: 200px
+      margin-width: 200px
+      
+    theme: 
+      light: [cosmo, theme_light_custom.scss]
+      dark: [cosmo, theme_dark_custom.scss]
     css: styles.css
     toc: true
+    citations-hover: true
+    code-link: true
+    code-fold: show
+    code-tools: false
+    code-block-border-left: "#004E4F"
+    # highlight-style: github
+
 
 editor: source
 
