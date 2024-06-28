@@ -52,16 +52,14 @@ Gondar, Ethiopia Sep 2006 to July 2008
 -   Machine Learning
 -   Big Data Analysis
 -   Disease prediction
--   Longitudinal data analysis
 -   Survival Analysis
--   Deep Learning on Survival Analysis
 -   Joint modelling
 -   Nutrition
 
 ## Publications \| Research
 
 -   Gebeye LG, Dessie EY and Yimam JA (2024). Predictors of
-    micronutrient deficiency among children aged 6–23 months in
+    micronutrient deficiency among children aged 6–23 months in
     Ethiopia: a machine learning approach. Front. Nutr. 10:1277048. doi:
     10.3389/fnut.2023.1277048. [Link to
     publication](https://www.frontiersin.org/articles/10.3389/fnut.2023.1277048/full)
@@ -162,7 +160,7 @@ Gondar, Ethiopia Sep 2006 to July 2008
 
 ## Statistical Computing skills
 
--   **SPSS, ODK, Kobo Toolbox, Power BI, STATA, SAS, R, Python, EViews**
+-   **R, Python, Quarto, Rmarkdown, Shiny, Power BI, STATA, SAS, SPSS, ODK, Kobo Toolbox, EViews**
 -   **Technical skills and ability**
     -   Proficient in statistical software including SPSS, ODK, Kobo
         Toolbox, Power BI, STATA, SAS, R, Python, and EViews.

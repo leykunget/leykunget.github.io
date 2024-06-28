@@ -10,9 +10,10 @@ website:
         text: "Home"
       - publication.qmd
       - resume.qmd
-      # - file: teaching.qmd
-      #   text: "Teaching"
-      - sidebar:teaching
+      - file: teaching.qmd
+        text: "Teaching"
+      - projects.qmd
+      - blog.qmd
 
     tools:
       - icon: twitter
@@ -22,26 +23,12 @@ website:
       - icon: envelope
         href: mailto:leyk.get@gmail.com
       - icon: linkedin
-        href: https://linkedin.com
+        href: https://www.linkedin.com/in/leykun-getaneh-gebeye-39a17890/
     page-footer:
       right: "Built with [Quarto](https://quarto.org/)"
       left: "&copy; Copyright 2024, Leykun Getaneh"
       
-  sidebar:
-    - id: teaching
-      title: "Teaching"
-      style: "docked"
-      background: light
-      contents:
-        - teaching.qmd
-        - computing-1.qmd
-        - computing-2.qmd
-        - regression-analysis.qmd
-        - econometrics.qmd
-        - time-series-analysis.qmd
-        - probability-theory.qmd
-        - statistical-inference.qmd
-        
+
 format:
   html:
     grid: 
@@ -50,7 +37,7 @@ format:
       margin-width: 200px
       
     theme: 
-      light: [cosmo, theme_light_custom.scss]
+      light: cerulean
       dark: [cosmo, theme_dark_custom.scss]
     css: styles.css
     toc: true
@@ -59,7 +46,6 @@ format:
     code-fold: show
     code-tools: false
     code-block-border-left: "#004E4F"
-    # highlight-style: github
 
 
 editor: source

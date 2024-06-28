@@ -22,24 +22,23 @@ about:
     - icon: github
       text: Github
       href: https://github.com/leykunget/
-    # - icon: file-text
-    #   text: resume
-    #   href: resume.pdf
     - icon: linkedin
       text: Linkedin
       href: https://linkedin.com/in/leykun-getaneh-gebeye-39a17890
 ---
 
 ::: {#ppc}
-Leykun Getaneh Gebeye is a senior lecturer, data scientist, and statistician with expertise in machine learning, time series analysis, and big data analysis. He holds a BSc and a MSc in Statistics, and is certified a data science specialization from John Hopkins University through Coursera. With over 7 years of experience as a lecturer at Wollo University in Ethiopia, Leykun has extensive experience in teaching, advising, and conducting research. He actively contributes to training programs and workshops related to statistical software and is proficient in a wide range of statistical software and programming languages, including R and Python. This proficiency enables him to effectively collect, clean, analyze, and visualize data.
+Leykun Getaneh Gebeye is a senior lecturer, data scientist, and statistician with expertise in machine learning, time series analysis, and big data analysis. He holds a BSc and a MSc in Statistics, and is certified a data science specialization from Johns Hopkins University through Coursera. With over 7 years of experience as a lecturer at Wollo University in Ethiopia, Leykun has extensive experience in teaching, advising, and conducting research. He actively contributes to training programs and workshops related to statistical software and is proficient in a wide range of statistical software and programming languages, including R and Python. 
+
+In addition to his core data science and statistical skillset, Leykun has recently expanded his technical capabilities to include Quarto, cross-language R/Python workflows, and interactive data visualizations. This breadth of expertise enables him to effectively preprocess, analyze, and communicate complex data insights, with specialties in machine learning, time series analysis, and big data.
+
 
 His research interests include:
 
 -   machine learning,
 -   big data analysis,\
 -   disease prediction,\
--   longitudinal data analysis,\
--   survival analysis, deep learning on survival analysis,\
+-   survival analysis,\
 -   joint modeling, and\
 -   nutrition.
 

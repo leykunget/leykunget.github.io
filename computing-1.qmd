@@ -1,4 +1,0 @@
----
-title: "Statistical Computing I"
-editor: visual
----

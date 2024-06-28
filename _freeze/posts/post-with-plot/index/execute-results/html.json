@@ -1,0 +1,17 @@
+{
+  "hash": "f481e83e4a08a519b6dfa6cf05069908",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Post With Plot\"\nauthor: \"Leykun Getaneh\"\ndate: \"2024-06-17\"\ncategories: [code, analysis, plot]\nimage: \"image.jpg\"\n---\n\n\n\n\nThis is a post with plot.\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(ggplot2)\nlibrary(dplyr)\nggplot(mtcars,aes(x=mpg, y=wt, color = as.factor(cyl))) +\n  geom_point() +\n  theme_bw()\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
