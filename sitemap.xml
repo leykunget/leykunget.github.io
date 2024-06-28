@@ -1,51 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://leykunget.github.io/econometrics.html</loc>
-    <lastmod>2024-06-18T15:17:41.028Z</lastmod>
-  </url>
-  <url>
     <loc>https://leykunget.github.io/time-series-analysis.html</loc>
-    <lastmod>2024-06-18T15:17:41.032Z</lastmod>
+    <lastmod>2024-06-07T14:15:29.573Z</lastmod>
   </url>
   <url>
     <loc>https://leykunget.github.io/resume.html</loc>
-    <lastmod>2024-06-18T15:17:41.032Z</lastmod>
+    <lastmod>2024-06-28T12:34:59.967Z</lastmod>
   </url>
   <url>
-    <loc>https://leykunget.github.io/computing-2.html</loc>
-    <lastmod>2024-06-18T15:17:41.028Z</lastmod>
-  </url>
-  <url>
-    <loc>https://leykunget.github.io/teaching.html</loc>
-    <lastmod>2024-06-18T15:17:41.032Z</lastmod>
-  </url>
-  <url>
-    <loc>https://leykunget.github.io/computing-1.html</loc>
-    <lastmod>2024-06-18T15:17:41.028Z</lastmod>
-  </url>
-  <url>
-    <loc>https://leykunget.github.io/about.html</loc>
-    <lastmod>2024-06-18T15:17:41.028Z</lastmod>
-  </url>
-  <url>
-    <loc>https://leykunget.github.io/probability-theory.html</loc>
-    <lastmod>2024-06-18T15:17:41.032Z</lastmod>
+    <loc>https://leykunget.github.io/projects.html</loc>
+    <lastmod>2024-06-28T16:27:44.069Z</lastmod>
   </url>
   <url>
     <loc>https://leykunget.github.io/index.html</loc>
-    <lastmod>2024-06-18T15:17:41.032Z</lastmod>
+    <lastmod>2024-06-28T14:50:17.864Z</lastmod>
   </url>
   <url>
-    <loc>https://leykunget.github.io/statistical-inference.html</loc>
-    <lastmod>2024-06-18T15:17:41.032Z</lastmod>
+    <loc>https://leykunget.github.io/blog.html</loc>
+    <lastmod>2024-06-21T11:33:47.595Z</lastmod>
   </url>
   <url>
-    <loc>https://leykunget.github.io/regression-analysis.html</loc>
-    <lastmod>2024-06-18T15:17:41.032Z</lastmod>
+    <loc>https://leykunget.github.io/posts/CLT-shinylive-demo/index.html</loc>
+    <lastmod>2024-06-25T13:03:16.645Z</lastmod>
   </url>
   <url>
     <loc>https://leykunget.github.io/publication.html</loc>
-    <lastmod>2024-06-18T15:17:41.032Z</lastmod>
+    <lastmod>2024-06-28T12:38:36.505Z</lastmod>
+  </url>
+  <url>
+    <loc>https://leykunget.github.io/teaching.html</loc>
+    <lastmod>2024-06-07T14:15:29.573Z</lastmod>
   </url>
 </urlset>
