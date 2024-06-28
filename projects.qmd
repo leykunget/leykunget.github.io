@@ -16,6 +16,7 @@ The interactive spatial map showed that the spatial variation of childhood **mic
 ::: {.column width="45%"}
 ![](img/spatial_map.jpg)
 :::
+:::
 
 ## COVID-19 Dashboard: The case of Ethiopia
 
@@ -31,4 +32,4 @@ The interactive spatial map showed that the spatial variation of childhood **mic
 
 This dashboard provides an overview of the Coronavirus (COVID-19) epidemic for Ethiopia. It is built with `R` using `Quarto` framework. [Check out the Covid-19 dashboard](https://leykungetaneh.quarto.pub/covid-19-in-ethiopia/covid-19-et-dashboard.html){target="_blank"}
 :::
-
+:::
