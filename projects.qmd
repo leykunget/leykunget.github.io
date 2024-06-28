@@ -2,11 +2,29 @@
 title: Projects
 ---
 
+## Spatial distribution of childhood MN deficiency
+
+::: columns
+::: {.column width="50%"}
+
+The interactive spatial map showed that the spatial variation of childhood **micronutrient (MN) deficiency** in Ethiopia was most prevalent in the Somali, Afar, and Amhara regions, while the Gambela, Addis Ababa, and Southern Nations, Nationalities, and Peoples (SNNP) regions had the lowest prevalence of MN deficiency.[Link](https://leykungetaneh.quarto.pub/spatial-distribution-of-childhood-mn-deficiency/)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="45%"}
+![](img/spatial_map.jpg)
+:::
+
 ## COVID-19 Dashboard: The case of Ethiopia
 
 ::: columns
 ::: {.column width="40%"}
 ![](img/covid-19-q-dashboard.jpg)
+:::
+
+::: {.column width="5%"}
 :::
 
 ::: {.column width="55%"}
