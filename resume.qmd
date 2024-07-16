@@ -66,7 +66,7 @@ Gondar, Ethiopia Sep 2006 to July 2008
 
 ## Certifications and Training Experience
 
--   **May 31 - June 01, 2024** - Delivered a Data Carpentry Workshop training using spreadsheet, OpenRefine, and R software at Wollo University, Dessie, Ethiopia.
+-   **May 31 - June 01, 2024** - Delivered a Data Carpentry Workshop training using spreadsheet, OpenRefine, and R software at Wollo University, Dessie, Ethiopia. [Link](https://leykunget.github.io/2024-05-31-wollo-university-main-campus-dc-with-R/)
 
 -   **April 23, 2024:** **Certified Instructor, [The Carpentries](https://carpentries.org/)** - Teaches foundational data science and computational skills to researchers worldwide. 
 -   **May 15 – 19, 2023:** Big data analytics for agribusiness and
