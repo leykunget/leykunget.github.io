@@ -2,6 +2,23 @@
 title: Projects
 ---
 
+## Customer Churn Prediction App (R Shiny App)
+
+::: columns
+::: {.column width="40%"}
+![](img/shiny-churn-app.gif)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="55%"}
+
+The Customer Churn Prediction App is an interactive tool built with R Shiny that predicts customer churn. This application employs the `XGBoost` algorithm, integrated with the `tidymodels` framework, to analyze customer attributes and behaviors, providing insights into churn probability. Access the app here: [Customer Churn Prediction Tool](https://0193b6f9-2fb2-3ecb-98eb-06390ec0cf9b.share.connect.posit.cloud/)
+:::
+:::
+
+
 ## Spatial distribution of childhood MN deficiency
 
 ::: columns

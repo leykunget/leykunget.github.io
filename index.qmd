@@ -28,14 +28,15 @@ about:
 ---
 
 ::: {#ppc}
-Leykun Getaneh Gebeye is a senior lecturer, data scientist, and statistician with expertise in machine learning, time series analysis, and big data analysis. He holds a BSc and a MSc in Statistics, and is certified a data science specialization from Johns Hopkins University through Coursera. With over 7 years of experience as a lecturer at Wollo University in Ethiopia, Leykun has extensive experience in teaching, advising, and conducting research. He actively contributes to training programs and workshops related to statistical software and is proficient in a wide range of statistical software and programming languages, including R and Python. 
+I am Leykun Getaneh Gebeye is a senior lecturer, data scientist, data analyst, and statistician with expertise in machine learning, time series analysis, and big data analysis. I hold a BSc and a MSc in Statistics, and am certified in data science specialization. With over 7 years of experience as a lecturer at Wollo University in Ethiopia, I have extensive experience in teaching, advising, and conducting research. I actively contribute to training programs and workshops related to statistical software and am proficient in a wide range of statistical software and programming languages, including R and Python. 
 
-In addition to his core data science and statistical skillset, Leykun has recently expanded his technical capabilities to include Quarto, cross-language R/Python workflows, and interactive data visualizations. This breadth of expertise enables him to effectively preprocess, analyze, and communicate complex data insights, with specialties in machine learning, time series analysis, and big data.
+In addition to my core data science and statistical skillset, I have recently expanded my technical capabilities to include Quarto, cross-language R/Python workflows, and interactive data visualizations. This breadth of expertise enables me to effectively preprocess, analyze, and communicate complex data insights, with specialties in machine learning, time series analysis, and big data.
 
 
-His research interests include:
+My research interests include:
 
 -   machine learning,
+-   time Series Analysis,\
 -   big data analysis,\
 -   disease prediction,\
 -   survival analysis,\
