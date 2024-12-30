@@ -7,7 +7,7 @@ title: Projects
 ::: columns
 ::: {.column width="50%"}
 
-This application predicts childhood micronutrient deficiency using machine learning. It employs an XGBoost model trained on various demographic and health-related features. The model was developed using the tidymodels framework and demonstrates good predictive performance. Access the app here: [Childhood Micronutrient Deficiency Prediction Tool](https://01940f43-8b51-7a58-d5b7-df79a7e7dae5.share.connect.posit.cloud/)
+The Childhood Micronutrient Deficiency Prediction App is an interactive tool built with **R Shiny** that predicts childhood micronutrient deficiency. This application predicts childhood micronutrient deficiency using machine learning. It employs an **XGBoost** model trained on various demographic and health-related features. The model was developed using the **tidymodels** framework and demonstrates good predictive performance. Furthermore, the model has been deployed to ensure accessibility and ease of use for healthcare providers and researchers. Access the app here: [Childhood Micronutrient Deficiency Prediction Tool](https://0194116f-8c9c-5c28-a013-67ea84d093e2.share.connect.posit.cloud/)
 
 :::
 
@@ -15,7 +15,7 @@ This application predicts childhood micronutrient deficiency using machine learn
 :::
 
 ::: {.column width="45%"}
-![](img/mnd-prediction-app.jpg)
+![](img/mnd-prediction-app.gif)
 :::
 :::
 
