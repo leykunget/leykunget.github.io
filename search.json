@@ -88,14 +88,14 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "This application predicts childhood micronutrient deficiency using machine learning. It employs an XGBoost model trained on various demographic and health-related features. The model was developed using the tidymodels framework and demonstrates good predictive performance. Access the app here: Childhood Micronutrient Deficiency Prediction Tool"
+    "text": "The Childhood Micronutrient Deficiency Prediction App is an interactive tool built with R Shiny that predicts childhood micronutrient deficiency. This application predicts childhood micronutrient deficiency using machine learning. It employs an XGBoost model trained on various demographic and health-related features. The model was developed using the tidymodels framework and demonstrates good predictive performance. Furthermore, the model has been deployed to ensure accessibility and ease of use for healthcare providers and researchers. Access the app here: Childhood Micronutrient Deficiency Prediction Tool"
   },
   {
     "objectID": "projects.html#childhood-micronutrient-deficiency-prediction-r-shiny-app",
     "href": "projects.html#childhood-micronutrient-deficiency-prediction-r-shiny-app",
     "title": "Projects",
     "section": "",
-    "text": "This application predicts childhood micronutrient deficiency using machine learning. It employs an XGBoost model trained on various demographic and health-related features. The model was developed using the tidymodels framework and demonstrates good predictive performance. Access the app here: Childhood Micronutrient Deficiency Prediction Tool"
+    "text": "The Childhood Micronutrient Deficiency Prediction App is an interactive tool built with R Shiny that predicts childhood micronutrient deficiency. This application predicts childhood micronutrient deficiency using machine learning. It employs an XGBoost model trained on various demographic and health-related features. The model was developed using the tidymodels framework and demonstrates good predictive performance. Furthermore, the model has been deployed to ensure accessibility and ease of use for healthcare providers and researchers. Access the app here: Childhood Micronutrient Deficiency Prediction Tool"
   },
   {
     "objectID": "projects.html#customer-churn-prediction-app-r-shiny-app",
