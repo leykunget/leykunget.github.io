@@ -28,19 +28,16 @@ about:
 ---
 
 ::: {#ppc}
-I am Leykun Getaneh Gebeye is a senior lecturer, data scientist, data analyst, and statistician with expertise in machine learning, time series analysis, and big data analysis. I hold both a BSc and an MSc in Statistics, and am certified in data science and machine learning specializations. With over 10 years of experience, I have a strong background in teaching, advising, and conducting research. I actively contribute to training programs and workshops related to statistical software and am proficient in a wide range of statistical software and programming languages, including R and Python. 
+I am Leykun Getaneh Gebeye is a Senior Lecturer, Data Scientist, Data Analyst, and Statistician with expertise in machine learning, time series analysis, and deep learning. I hold both a BSc and an MSc in Statistics, and am certified in data science and machine learning specializations. With over 10 years of experience, I have a strong background in teaching, advising, and conducting research. I actively contribute to training programs and workshops related to statistical software and am proficient in a wide range of statistical software and programming languages, including R and Python. 
 
-In addition to my core data science and statistical skillset, I have recently expanded my technical capabilities to include Quarto, cross-language R/Python workflows, and interactive data visualizations. This breadth of expertise enables me to effectively preprocess, analyze, and communicate complex data insights, with specialties in machine learning and time series analysis.
-
+In addition to my core data science and statistical skillset, I have recently expanded my technical capabilities to include Quarto, cross-language R/Python workflows, and interactive data visualizations. This breadth of expertise enables me to effectively preprocess, analyze, and communicate complex data insights, with specialties in machine learning, deep learning, and time series analysis and forecasting.
 
 My research interests include:
 
--   machine learning,
--   time Series Analysis,\
--   disease prediction,\
--   survival analysis,\
--   joint modeling, and\
--   nutrition.
+-   Machine Learning and Deep Learning,
+-   Time Series Analysis and Forecasting,\
+-   Disease Prediction,\
+-   Modelling.
 
 ## Education
 

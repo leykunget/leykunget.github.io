@@ -5,6 +5,12 @@ editor:
     wrap: 72
 ---
 
+<iframe 
+  width="900" 
+  height="950" 
+  src="img/Leykun_cv_2025_05_23.pdf">
+</iframe>
+
 # [Leykun Getaneh Gebeye](https://leykunget.github.io)
 
 ## Personal Information
@@ -23,11 +29,11 @@ Woldia \| **Nationality:** Ethiopian
 
 ## Professional Summary
 
-Senior Statistician, Data Scientist, and Data Analyst with over 10 years of experience. Proficient in data analysis using R and Python, with expertise in statistical techniques, machine learning, and data visualization. Adept at transforming complex data sets into actionable insights to drive strategic decision-making.
+Data Scientist, Statistician, and Data Analyst with over 10 years of experience in academic and research environments. Proficient in data analysis using **R** and **Python**, with expertise in statistical techniques, machine learning, data visualization, and emerging deep learning techniques. Adept at transforming complex data sets into actionable insights to drive strategic decision-making.
 
 ## Work Experience
 
-**Lecturer/Researcher, Statistics** Wollo University, Dessie, Ethiopia
+**Lecturer/Researcher, Statistics, Data Scientist** Wollo University, Dessie, Ethiopia
 September 2016 – Present
 
 -   Training (Preparing and delivering statistical software), workshops,
@@ -53,13 +59,13 @@ Gondar, Ethiopia Sep 2006 to July 2008
 
 ## Research Interests
 
--   Machine Learning
--   Time Series Analysis
--   Big Data Analysis
--   Disease prediction
--   Survival Analysis
--   Joint modelling
--   Nutrition
+My research focuses on the application and development of advanced statistical and machine learning methodologies to solve real-world problems. Key areas
+include:
+
+-   Machine Learning and Deep Learning
+-   Time Series Analysis and Forecasting
+-   Disease Prediction
+-   Modelling
 
 ## Publications \| Research
 
@@ -197,16 +203,16 @@ Gondar, Ethiopia Sep 2006 to July 2008
 
 ### References
 
-1.  Kassu Mehari Beyene (Ph.D.), Department of Statistics, Wollo
+1.  Jemal Ayalew Yimam (Ph.D.), Department of Statistics, Wollo
     University, Dessie, Ethiopia.
-    -   Phone (Mob.): +251910040499
-    -   Email: kassu.mehari\@wu.du.et \| m2kassu\@gmail.com
+    -   Phone: +251920488641
+    -   Email: [jemal4446@yahoo.com](mailto:jemal4446@yahoo.com)
 2.  Eskezeia Y. Dessie (Ph.D.), Department of Pediatrics, Cincinnati
     Children’s Hospital Medical Center, University of Cincinnati,
     College of Medicine, Cincinnati, OH, United States.
     -   Phone: +15137201937
-    -   Email: eskezeia.dessie\@cchmc.org
-3.  Jemal Ayalew Yimam (Ph.D.), Department of Statistics, Wollo
-    University, Dessie, Ethiopia.
-    -   Phone: +251920488641
-    -   Email: jemal4446\@yahoo.com
+    -   Email: [eskezeia.dessie@cchmc.org](mailto:eskezeia.dessie@cchmc.org)
+3.  Mesfin Diro (PhD)
+    Program of Computational Data Science, Addis Ababa University, Addis Ababa, Ethiopia.
+    - Phone: +251912086156
+    - Email: [mesfin.diro@aau.edu.et ](mailto:mesfin.diro@aau.edu.et)
