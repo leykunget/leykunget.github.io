@@ -4,35 +4,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Central Limit Theorem (CLT) shiny app demo with quarto\n\n\n\nCLT\n\nshiny\n\n\n\n\n\n\n\n\n\nJun 21, 2024\n\n\nLeykun Getaneh\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Leykun Getaneh Gebeye",
-    "section": "",
-    "text": "I am Leykun Getaneh Gebeye is a Senior Lecturer, Data Scientist, Data Analyst, and Statistician with expertise in machine learning, time series analysis, and deep learning. I hold both a BSc and an MSc in Statistics, and am certified in data science and machine learning specializations. With over 10 years of experience, I have a strong background in teaching, advising, and conducting research. I actively contribute to training programs and workshops related to statistical software and am proficient in a wide range of statistical software and programming languages, including R and Python.\nIn addition to my core data science and statistical skillset, I have recently expanded my technical capabilities to include Quarto, cross-language R/Python workflows, and interactive data visualizations. This breadth of expertise enables me to effectively preprocess, analyze, and communicate complex data insights, with specialties in machine learning, deep learning, and time series analysis and forecasting.\nMy research interests include:\n\nMachine Learning and Deep Learning,\nTime Series Analysis and Forecasting,\n\nDisease Prediction,\n\nModelling.\n\n\n\nAddis Ababa University | Addis Ababa, Ethiopia\nMSc in Statistics | Sept 2010 - Jan 2013\nUniversity of Gondar | Gondar, Ethiopia\nBSc in Statistics | Sept 2006 - July 2008\n\n\n\nLecturer | Data Scientist | Wollo University | Sept 2016 - present\nGA-I | GA-II | Lecturer | Aksum University | Feb 2013 - Aug 2016\n\n \n  \n   \n  \n    \n     email\n  \n  \n    \n     twitter\n  \n  \n    \n     Github\n  \n  \n    \n     Linkedin"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Leykun Getaneh Gebeye",
-    "section": "",
-    "text": "Addis Ababa University | Addis Ababa, Ethiopia\nMSc in Statistics | Sept 2010 - Jan 2013\nUniversity of Gondar | Gondar, Ethiopia\nBSc in Statistics | Sept 2006 - July 2008"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Leykun Getaneh Gebeye",
-    "section": "",
-    "text": "Lecturer | Data Scientist | Wollo University | Sept 2016 - present\nGA-I | GA-II | Lecturer | Aksum University | Feb 2013 - Aug 2016"
-  },
-  {
-    "objectID": "publication.html",
-    "href": "publication.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Gebeye LG, Dessie EY and Yimam JA (2024). Predictors of micronutrient deficiency among children aged 6–23 months in Ethiopia: a machine learning approach. Front. Nutr. 10:1277048. https://doi.org/10.3389/fnut.2023.1277048\nGetaneh, Leykun (2012). Forecasting of Petroleum Oil Import Prices by GARCH Models: The Case of Ethiopia. Addis Ababa university. http://10.90.10.223:4000/handle/123456789/3841"
+    "text": "Central Limit Theorem (CLT) shiny app demo with quarto\n\n\n\n\n\n\nCLT\n\n\nshiny\n\n\n\n\n\n\n\n\n\nJun 21, 2024\n\n\nLeykun Getaneh\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html",
@@ -159,5 +131,33 @@
     "title": "Teaching",
     "section": "",
     "text": "Statistical computing I\nStatistical computing II\nRegression Analysis\nEconometrics\nTime series analysis\nProbability Theory\nStatistical Inference"
+  },
+  {
+    "objectID": "publication.html",
+    "href": "publication.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Gebeye LG, Dessie EY and Yimam JA (2024). Predictors of micronutrient deficiency among children aged 6–23 months in Ethiopia: a machine learning approach. Front. Nutr. 10:1277048. https://doi.org/10.3389/fnut.2023.1277048\nGetaneh, Leykun (2012). Forecasting of Petroleum Oil Import Prices by GARCH Models: The Case of Ethiopia. Addis Ababa university. http://10.90.10.223:4000/handle/123456789/3841"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Leykun Getaneh Gebeye",
+    "section": "",
+    "text": "I am Leykun Getaneh Gebeye is a Senior Lecturer, Data Scientist, Data Analyst, and Statistician with expertise in machine learning, time series analysis, and deep learning. I hold both a BSc and an MSc in Statistics, and am certified in data science and machine learning specializations. With over 10 years of experience, I have a strong background in teaching, advising, and conducting research. I actively contribute to training programs and workshops related to statistical software and am proficient in a wide range of statistical software and programming languages, including R and Python.\nIn addition to my core data science and statistical skillset, I have recently expanded my technical capabilities to include Quarto, cross-language R/Python workflows, and interactive data visualizations. This breadth of expertise enables me to effectively preprocess, analyze, and communicate complex data insights, with specialties in machine learning, deep learning, and time series analysis and forecasting.\nMy research interests include:\n\nMachine Learning and Deep Learning,\nTime Series Analysis and Forecasting,\n\nDisease Prediction,\n\nModelling.\n\n\n\nAddis Ababa University | Addis Ababa, Ethiopia\nMSc in Statistics | Sept 2010 - Jan 2013\nUniversity of Gondar | Gondar, Ethiopia\nBSc in Statistics | Sept 2006 - July 2008\n\n\n\nLecturer | Data Scientist | Wollo University | Sept 2016 - present\nGA-I | GA-II | Lecturer | Aksum University | Feb 2013 - Aug 2016\n\n \n  \n   \n  \n    \n     email\n  \n  \n    \n     twitter\n  \n  \n    \n     Github\n  \n  \n    \n     Linkedin"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Leykun Getaneh Gebeye",
+    "section": "",
+    "text": "Addis Ababa University | Addis Ababa, Ethiopia\nMSc in Statistics | Sept 2010 - Jan 2013\nUniversity of Gondar | Gondar, Ethiopia\nBSc in Statistics | Sept 2006 - July 2008"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Leykun Getaneh Gebeye",
+    "section": "",
+    "text": "Lecturer | Data Scientist | Wollo University | Sept 2016 - present\nGA-I | GA-II | Lecturer | Aksum University | Feb 2013 - Aug 2016"
   }
 ]
