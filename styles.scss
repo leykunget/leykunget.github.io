@@ -1,0 +1,753 @@
+/*============================================================
+  LEYKUN GETANEH — PORTFOLIO DESIGN SYSTEM
+  Font pair : Playfair Display (headings) + DM Sans (body)
+  Palette   : Teal #006D6E · Sand #F7F4F0 · Sage #E8F3F3
+============================================================*/
+
+/*-- scss:defaults --*/
+
+// ── Bootstrap / Quarto variable layer ────────────────────
+$body-bg:                #F7F4F0;
+$body-color:             #0E1117;
+$link-color:             #006D6E;
+$link-hover-color:       #00A6A8;
+$font-family-sans-serif: "DM Sans", system-ui, sans-serif;
+$font-family-monospace:  "JetBrains Mono", "Fira Code", monospace;
+$font-size-root:         16px;
+$line-height-base:       1.75;
+$headings-font-family:   "Playfair Display", Georgia, serif;
+$headings-font-weight:   700;
+$headings-color:         #0E1117;
+$headings-line-height:   1.15;
+$navbar-bg:              #006D6E;
+$navbar-fg:              #ffffff;
+$navbar-hl:              #E8F3F3;
+$code-block-bg:          #F0F0EC;
+$code-color:             #006D6E;
+$border-radius:          6px;
+
+/*-- scss:rules --*/
+
+// ══════════════════════════════════════════════════════════
+//  DESIGN TOKENS
+// ══════════════════════════════════════════════════════════
+
+:root {
+  --teal:       #006D6E;
+  --teal-lt:    #00A6A8;
+  --sage:       #E8F3F3;
+  --sand:       #F7F4F0;
+  --ink:        #0E1117;
+  --ink-soft:   #374151;
+  --muted:      #6B7280;
+  --rule:       #E2E5E9;
+  --card-bg:    #FFFFFF;
+
+  --sh-sm: 0 1px 4px rgba(14,17,23,.06), 0 1px 2px rgba(14,17,23,.04);
+  --sh-md: 0 4px 16px rgba(14,17,23,.08), 0 2px 6px rgba(14,17,23,.05);
+  --sh-lg: 0 12px 40px rgba(14,17,23,.12), 0 4px 12px rgba(14,17,23,.06);
+
+  --ease: all 0.24s cubic-bezier(0.4, 0, 0.2, 1);
+  --r-sm: 6px;
+  --r-md: 12px;
+}
+
+[data-bs-theme="dark"] {
+  --teal:     #00A6A8;
+  --teal-lt:  #5ECFCF;
+  --sage:     #0D2626;
+  --sand:     #111111;
+  --ink:      #F0EDE8;
+  --ink-soft: #D1D5DB;
+  --muted:    #9CA3AF;
+  --rule:     #262626;
+  --card-bg:  #1A1A1A;
+
+  --sh-sm: 0 1px 4px rgba(0,0,0,.35);
+  --sh-md: 0 4px 16px rgba(0,0,0,.45);
+  --sh-lg: 0 12px 40px rgba(0,0,0,.55);
+}
+
+// ══════════════════════════════════════════════════════════
+//  BASE
+// ══════════════════════════════════════════════════════════
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--sand);
+  color: var(--ink);
+  font-weight: 300;
+  letter-spacing: 0.01em;
+}
+
+::selection { background: var(--teal); color: #fff; }
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--rule) transparent;
+}
+::-webkit-scrollbar        { width: 5px; height: 5px; }
+::-webkit-scrollbar-track  { background: transparent; }
+::-webkit-scrollbar-thumb  { background: var(--rule); border-radius: 3px; }
+
+// ── Typography ────────────────────────────────────────────
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--ink);
+  letter-spacing: -0.02em;
+}
+
+// Global h2 — teal left-bar accent + clean underline
+// (project cards override this locally)
+h2 {
+  font-size: 1.6rem;
+  margin-top: 2.75rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.9rem;
+  border-bottom: 1.5px solid var(--rule);
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.15em;
+    width: 3px;
+    height: 1em;
+    background: var(--teal);
+    border-radius: 2px;
+  }
+}
+
+h3 { font-size: 1.2rem; }
+
+p { margin-bottom: 1.2rem; line-height: 1.8; }
+
+a {
+  color: var(--teal);
+  text-decoration: none;
+  transition: var(--ease);
+  &:hover {
+    color: var(--teal-lt);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1.5px;
+  }
+}
+
+// Bold/strong → teal pill badges
+strong, b {
+  background: var(--sage);
+  color: var(--teal);
+  padding: 0.08em 0.4em;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.92em;
+}
+
+// ── Navbar ────────────────────────────────────────────────
+
+.navbar {
+  padding: 0.7rem 2rem;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  .navbar-brand {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: #fff !important;
+  }
+
+  .nav-link {
+    font-size: 0.85rem;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: rgba(255,255,255,.82) !important;
+    padding: 0.35rem 0.7rem !important;
+    border-radius: var(--r-sm);
+    transition: var(--ease);
+
+    &:hover, &.active {
+      color: #fff !important;
+      background: rgba(255,255,255,.15);
+    }
+  }
+
+  .quarto-navbar-tools a,
+  .quarto-navbar-tools .nav-link {
+    color: rgba(255,255,255,.7) !important;
+    &:hover { color: #fff !important; }
+  }
+}
+
+// ── Footer ────────────────────────────────────────────────
+
+.nav-footer {
+  background: var(--ink);
+  color: rgba(240,237,232,.55);
+  font-size: 0.78rem;
+  padding: 1.25rem 2rem;
+  border-top: none;
+
+  a { color: var(--teal-lt); &:hover { color: #fff; } }
+
+  [data-bs-theme="dark"] & { background: #0A0A0A; }
+}
+
+// ── TOC sidebar ───────────────────────────────────────────
+
+.sidebar nav[role="doc-toc"] {
+  font-size: 0.78rem;
+
+  ul { list-style: none; padding-left: 0; margin: 0; }
+
+  a {
+    display: block;
+    color: var(--muted);
+    padding: 0.22rem 0.55rem;
+    border-left: 2px solid transparent;
+    transition: var(--ease);
+
+    &:hover, &.active {
+      color: var(--teal);
+      border-left-color: var(--teal);
+      background: var(--sage);
+      text-decoration: none;
+      border-radius: 0 4px 4px 0;
+    }
+  }
+}
+
+// ── Code ──────────────────────────────────────────────────
+
+pre.sourceCode {
+  border-left: 3px solid var(--teal);
+  border-radius: var(--r-sm);
+  font-size: 0.84rem;
+  box-shadow: var(--sh-sm);
+  background: #F0F0EC;
+
+  code { font-family: "JetBrains Mono", monospace; }
+}
+
+[data-bs-theme="dark"] pre.sourceCode { background: #1A1A1A; }
+
+code:not(pre code) {
+  background: var(--sage);
+  color: var(--teal);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 0.875em;
+  font-family: "JetBrains Mono", monospace;
+}
+
+[data-bs-theme="dark"] code:not(pre code) {
+  background: #0D2626;
+  color: var(--teal-lt);
+}
+
+// ══════════════════════════════════════════════════════════
+//  HERO  (index.qmd — trestles template)
+// ══════════════════════════════════════════════════════════
+
+// trestles renders: .about-entity  (outer wrapper)
+//   ├─ .about-image-container  (left col — photo + links)
+//   └─ .about-contents         (right col — all text)
+
+.quarto-about-trestles {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 0 3.5rem;
+  align-items: start;
+  padding: 3.5rem 0 2.5rem;
+  max-width: 860px;
+  margin-inline: auto;
+
+  // ── Left column: photo + buttons ─────────────────────
+  .about-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    position: sticky;
+    top: 100px;
+
+    img {
+      width: 180px !important;
+      height: 180px !important;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid var(--sage);
+      box-shadow: 0 0 0 6px var(--rule);
+      transition: var(--ease);
+
+      &:hover {
+        box-shadow: 0 0 0 6px var(--teal);
+        transform: scale(1.03);
+      }
+    }
+  }
+
+  .about-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+    width: 100%;
+  }
+
+  .about-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    padding: 0.45rem 0.75rem;
+    background: var(--card-bg);
+    border: 1.5px solid var(--rule);
+    border-radius: var(--r-sm);
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--ink) !important;
+    text-decoration: none !important;
+    box-shadow: var(--sh-sm);
+    transition: var(--ease);
+    width: 100%;
+
+    &:hover {
+      background: var(--teal);
+      border-color: var(--teal);
+      color: #fff !important;
+      transform: translateY(-2px);
+      box-shadow: var(--sh-md);
+    }
+
+    i, .bi { font-size: 0.85rem; }
+  }
+
+  // ── Right column: all content ─────────────────────────
+  .about-contents {
+    min-width: 0;
+  }
+}
+
+// Hero badge — the .hero-badge div in index.qmd
+.hero-badge {
+  display: inline-block;
+  background: var(--sage);
+  border: 1px solid rgba(0, 109, 110, 0.22);
+  color: var(--teal);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.28rem 0.85rem;
+  border-radius: 100px;
+  margin-bottom: 1rem;
+}
+
+// Hero h1 — gradient + animated underline bar
+.quarto-about-trestles .about-contents h1 {
+  font-size: clamp(1.75rem, 4vw, 2.6rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.2rem;
+  margin-top: 0;
+  // no padding-left / no ::before bar — hero is special
+  padding-left: 0;
+  border-bottom: none;
+
+  background: linear-gradient(135deg, var(--ink) 0%, var(--teal) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  // kill the global h2-style ::before on h1
+  &::before { display: none; }
+
+  // animated teal underline bar
+  &::after {
+    content: "";
+    display: block;
+    width: 52px;
+    height: 3px;
+    background: var(--teal);
+    margin-top: 0.7rem;
+    border-radius: 2px;
+    animation: growLine 0.55s 0.2s ease both;
+  }
+}
+
+// Hero body text — slightly larger, full ink colour
+.quarto-about-trestles .about-contents > p {
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  line-height: 1.8;
+}
+
+// Research interest bullets → teal pill tags
+.quarto-about-trestles .about-contents ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.5rem 0 1.25rem;
+
+  li {
+    background: var(--sage);
+    border: 1px solid rgba(0,109,110,.18);
+    color: var(--teal);
+    font-size: 0.78rem;
+    font-weight: 500;
+    padding: 0.28rem 0.75rem;
+    border-radius: 100px;
+    transition: var(--ease);
+
+    &:hover { background: var(--teal); color: #fff; cursor: default; }
+  }
+}
+
+// Education / Experience h2 inside hero — no global bar
+.quarto-about-trestles .about-contents h2 {
+  font-size: 1.1rem;
+  margin-top: 1.75rem;
+  margin-bottom: 0.6rem;
+  padding-left: 0;
+  border-bottom: 1.5px solid var(--rule);
+  padding-bottom: 0.3rem;
+
+  &::before { display: none; }
+}
+
+// Hero fade-in
+.quarto-about-trestles {
+  animation: heroUp 0.55s ease both;
+}
+
+@keyframes heroUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes growLine {
+  from { width: 0; }
+  to   { width: 52px; }
+}
+
+// Mobile: stack columns
+@media (max-width: 660px) {
+  .quarto-about-trestles {
+    grid-template-columns: 1fr;
+
+    .about-image-container {
+      position: static;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .about-links { flex-direction: row; flex-wrap: wrap; justify-content: center; }
+    .about-link  { width: auto; }
+  }
+}
+
+// Dark mode hero headline
+[data-bs-theme="dark"] .quarto-about-trestles .about-contents h1 {
+  background: linear-gradient(135deg, #F0EDE8 0%, var(--teal-lt) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+// ══════════════════════════════════════════════════════════
+//  PROJECT CARDS  (projects.qmd)
+// ══════════════════════════════════════════════════════════
+
+// Intro text
+.projects-intro {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin-bottom: 2rem;
+}
+
+// Card wrapper
+.project-card {
+  background: var(--card-bg);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-md);
+  margin-bottom: 1.5rem;
+  box-shadow: var(--sh-sm);
+  overflow: hidden;
+  position: relative;
+  transition: var(--ease);
+
+  // Left-edge teal accent bar — slides in on hover
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0; top: 0;
+    width: 4px;
+    height: 100%;
+    background: var(--teal);
+    border-radius: 4px 0 0 4px;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.28s ease;
+  }
+
+  &:hover {
+    box-shadow: var(--sh-lg);
+    transform: translateY(-4px);
+    border-color: rgba(0, 166, 168, 0.4);
+
+    &::before { transform: scaleY(1); }
+  }
+}
+
+// Inner flex row
+.project-card-inner {
+  display: flex;
+  gap: 1.75rem;
+  align-items: flex-start;
+  padding: 1.75rem 1.75rem 1.75rem 2rem; // extra left for the accent bar
+}
+
+// Text block
+.project-text {
+  flex: 1;
+  min-width: 0;
+}
+
+// Image block
+.project-img {
+  flex: 0 0 180px;
+  width: 180px;
+}
+
+.project-thumbnail {
+  width: 180px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: var(--r-sm);
+  box-shadow: var(--sh-md);
+  display: block;
+  transition: var(--ease);
+}
+
+.project-card:hover .project-thumbnail {
+  transform: scale(1.04);
+  box-shadow: var(--sh-lg);
+}
+
+// Project card title — override global h2 fully
+.project-title,
+.project-card h2.project-title {
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+  margin: 0 0 0.65rem !important;
+  padding: 0 !important;
+  border: none !important;
+  color: var(--ink) !important;
+  letter-spacing: -0.015em;
+  position: static !important;
+
+  &::before { display: none !important; }
+  &::after  { display: none !important; }
+}
+
+// Project description
+.project-text > p {
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  line-height: 1.75;
+  margin-bottom: 0.75rem;
+}
+
+[data-bs-theme="dark"] .project-text > p { color: #C9CDD4; }
+
+// Project link button
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 0.25rem;
+  padding: 0.38rem 0.9rem;
+  background: var(--teal);
+  color: #fff !important;
+  border-radius: var(--r-sm);
+  font-size: 0.78rem;
+  font-weight: 500;
+  text-decoration: none !important;
+  transition: var(--ease);
+  box-shadow: var(--sh-sm);
+
+  &:hover {
+    background: var(--teal-lt);
+    transform: translateX(3px);
+    text-decoration: none !important;
+    color: #fff !important;
+    box-shadow: var(--sh-md);
+  }
+}
+
+// Staggered entrance animations
+@media (prefers-reduced-motion: no-preference) {
+  .project-card {
+    animation: fadeUp 0.45s ease both;
+    &:nth-child(1) { animation-delay: 0.04s; }
+    &:nth-child(2) { animation-delay: 0.09s; }
+    &:nth-child(3) { animation-delay: 0.14s; }
+    &:nth-child(4) { animation-delay: 0.19s; }
+    &:nth-child(5) { animation-delay: 0.24s; }
+    &:nth-child(6) { animation-delay: 0.29s; }
+  }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+// Responsive: stack image below text on narrow screens
+@media (max-width: 600px) {
+  .project-card-inner { flex-direction: column; }
+  .project-img, .project-thumbnail { width: 100%; height: 180px; flex: none; }
+}
+
+// Dark mode card
+[data-bs-theme="dark"] {
+  .project-card {
+    background: #1A1A1A;
+    border-color: #252525;
+  }
+}
+
+// ══════════════════════════════════════════════════════════
+//  BLOG LISTING
+// ══════════════════════════════════════════════════════════
+
+.quarto-listing-default .quarto-post {
+  background: var(--card-bg);
+  border: 1px solid var(--rule) !important;
+  border-radius: var(--r-md);
+  padding: 1.4rem !important;
+  margin-bottom: 1.1rem;
+  box-shadow: var(--sh-sm);
+  transition: var(--ease);
+
+  &:hover {
+    box-shadow: var(--sh-md);
+    transform: translateY(-3px);
+    border-color: rgba(0,166,168,.35) !important;
+  }
+
+  .listing-title a {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--ink);
+    text-decoration: none;
+    &:hover { color: var(--teal); text-decoration: none; }
+  }
+
+  .listing-description {
+    font-size: 0.875rem;
+    color: var(--muted);
+    margin-top: 0.4rem;
+  }
+
+  .listing-date, .listing-author {
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .listing-category {
+    display: inline-block;
+    padding: 0.15rem 0.55rem;
+    background: var(--sage);
+    color: var(--teal);
+    border: 1px solid rgba(0,109,110,.18);
+    border-radius: 100px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    transition: var(--ease);
+    &:hover { background: var(--teal); color: #fff; }
+  }
+}
+
+[data-bs-theme="dark"] .quarto-listing-default .quarto-post {
+  background: #1A1A1A;
+  border-color: #252525 !important;
+}
+
+// Blog / listing page title banner
+.quarto-title-banner {
+  background: linear-gradient(135deg, var(--teal) 0%, #004E4F 100%) !important;
+  padding: 3rem 2rem !important;
+
+  h1 { color: #fff !important; -webkit-text-fill-color: #fff !important; }
+  .description { color: rgba(255,255,255,.75); }
+}
+
+[data-bs-theme="dark"] .quarto-title-banner {
+  background: linear-gradient(135deg, #004E4F 0%, #002F2F 100%) !important;
+}
+
+// ══════════════════════════════════════════════════════════
+//  PUBLICATION / TEACHING LISTS
+// ══════════════════════════════════════════════════════════
+
+// Any ul inside a .page-layout-article main (pub, teaching)
+// but NOT inside .project-card or toc
+.page-layout-article main > div > ul > li,
+.page-layout-article main > ul > li {
+  background: var(--card-bg);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-sm);
+  padding: 0.9rem 1.1rem;
+  margin-bottom: 0.65rem;
+  box-shadow: var(--sh-sm);
+  list-style: none;
+  transition: var(--ease);
+
+  &:hover {
+    box-shadow: var(--sh-md);
+    border-color: rgba(0,166,168,.35);
+    transform: translateX(4px);
+  }
+}
+
+[data-bs-theme="dark"] {
+  .page-layout-article main > div > ul > li,
+  .page-layout-article main > ul > li {
+    background: #1A1A1A;
+    border-color: #252525;
+  }
+}
+
+// ══════════════════════════════════════════════════════════
+//  SCROLL-MARGIN & MISC
+// ══════════════════════════════════════════════════════════
+
+h2, h3, section { scroll-margin-top: 80px; }
+
+.page-navigation {
+  border-top: 1px solid var(--rule);
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  font-size: 0.84rem;
+}
+
+// Dark mode body background
+[data-bs-theme="dark"] body { background: #111111; }

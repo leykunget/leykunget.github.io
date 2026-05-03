@@ -1,9 +1,17 @@
 /*-- scss:defaults --*/
-// Base document colors
-$body-bg: #181818;
-$body-color: white;
-$link-color: #75AADB;
-$navbar-bg: #004E4F;
 
-// Code blocks
-$code-block-bg-alpha: -.8;
+// Dark mode Bootstrap variable layer
+// (styles.scss [data-bs-theme="dark"] handles runtime CSS vars)
+
+$body-bg:             #111111;
+$body-color:          #F0EDE8;
+$link-color:          #00A6A8;
+$link-hover-color:    #5ECFCF;
+$headings-color:      #F0EDE8;
+
+$navbar-bg:           #004E4F;
+$navbar-fg:           #ffffff;
+$navbar-hl:           #E8F3F3;
+
+$code-block-bg:       #1A1A1A;
+$code-color:          #5ECFCF;

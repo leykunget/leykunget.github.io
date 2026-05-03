@@ -1,0 +1,16 @@
+---
+title: "Training"
+format: html
+---
+
+## Basic R Training – NDMC, EPHI (2026) (April 28 – May 2, 2026)
+
+🔗 [Training link](https://github.com/leykunget/Basic-R-Training-2026)
+
+## Basic R training organized by the Health System Research Directorate, EPHI (October 14 – 17, 2025)
+
+🔗 [Training link](https://github.com/leykunget/basic-r-training-hs)  
+
+## Data Carpentry with R Workshop (May 31-Jun 01, 2024)
+
+🔗 [Training link](https://leykunget.github.io/2024-05-31-wollo-university-main-campus-dc-with-R/)
