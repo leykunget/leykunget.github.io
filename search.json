@@ -1,143 +1,24 @@
 [
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Leykun Getaneh Gebeye",
     "section": "",
-    "text": "Central Limit Theorem (CLT) shiny app demo with quarto\n\n\n\nCLT\n\nshiny\n\n\n\n\n\n\n\n\n\nJun 21, 2024\n\n\nLeykun Getaneh\n\n\n\n\n\nNo matching items"
+    "text": "Data Scientist · Statistician · Data Analyst\n\nI am a Data Scientist, Statistician, and Data Analyst with over a decade of experience at the intersection of academic research and applied analytics. My work bridges statistics, machine learning, and deep learning — with a particular focus on applying data science to disease modeling, forecasting, and public health decision support systems.\nI transform complex data into actionable insights using R, Python, SAS, Stata, and SPSS. My modeling toolkit spans Tidymodels, TensorFlow, and PyTorch, including transformer-based approaches like Temporal Fusion Transformers (TFT).\nBeyond modeling, I build interactive data products and reproducible analytical workflows with R Shiny, Python Shiny, Streamlit, Plotly, and Quarto — communicating results through dynamic visualizations, dashboards, and automated reporting.\nResearch interests\n\nMachine Learning and Deep Learning\nTime Series Analysis and Forecasting\nDisease Prediction and Modelling\n\n\n\nAddis Ababa University · Addis Ababa, Ethiopia\nMSc in Statistics · Sept 2010 – Jan 2013\nUniversity of Gondar · Gondar, Ethiopia\nBSc in Statistics · Sept 2006 – July 2008\n\n\n\nLecturer · Data Scientist — Wollo University · Sept 2016 – present\nData Scientist (Contract) · Jan 2025 – present\n\n \n  \n   \n  \n    \n     Email\n  \n  \n    \n     Twitter\n  \n  \n    \n     GitHub\n  \n  \n    \n     LinkedIn"
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Leykun Getaneh Gebeye",
     "section": "",
-    "text": "The Ethiopia Earthquake Tracker is a real-time web application I developed to monitor seismic activities across Ethiopia, built using R Shiny. With Ethiopia recently experiencing a series of earthquakes of varying magnitudes, this tool has become more essential than ever.\nKey Features:\n✨ Live tracking of earthquakes using USGS (United States Geological Survey) data\n✨ Interactive map visualization\n✨ Real-time statistics and updates\n✨ Time-based filtering options\n✨ Magnitude Range Selection\n✨ Automatic 5-minute data refresh\nThe app serves as a valuable tool for monitoring seismic activity in Ethiopia, providing both researchers and the general public with easy access to earthquake data through an intuitive and user-friendly interface.\n🔗 Check out the application here!"
+    "text": "Addis Ababa University · Addis Ababa, Ethiopia\nMSc in Statistics · Sept 2010 – Jan 2013\nUniversity of Gondar · Gondar, Ethiopia\nBSc in Statistics · Sept 2006 – July 2008"
   },
   {
-    "objectID": "projects.html#the-ethiopia-earthquake-tracker",
-    "href": "projects.html#the-ethiopia-earthquake-tracker",
-    "title": "Projects",
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Leykun Getaneh Gebeye",
     "section": "",
-    "text": "The Ethiopia Earthquake Tracker is a real-time web application I developed to monitor seismic activities across Ethiopia, built using R Shiny. With Ethiopia recently experiencing a series of earthquakes of varying magnitudes, this tool has become more essential than ever.\nKey Features:\n✨ Live tracking of earthquakes using USGS (United States Geological Survey) data\n✨ Interactive map visualization\n✨ Real-time statistics and updates\n✨ Time-based filtering options\n✨ Magnitude Range Selection\n✨ Automatic 5-minute data refresh\nThe app serves as a valuable tool for monitoring seismic activity in Ethiopia, providing both researchers and the general public with easy access to earthquake data through an intuitive and user-friendly interface.\n🔗 Check out the application here!"
-  },
-  {
-    "objectID": "projects.html#childhood-micronutrient-deficiency-prediction-r-shiny-app",
-    "href": "projects.html#childhood-micronutrient-deficiency-prediction-r-shiny-app",
-    "title": "Projects",
-    "section": "Childhood Micronutrient Deficiency Prediction (R Shiny App)",
-    "text": "Childhood Micronutrient Deficiency Prediction (R Shiny App)\n\n\nThe Childhood Micronutrient Deficiency Prediction App is an interactive tool built with R Shiny that predicts childhood micronutrient deficiency. This application predicts childhood micronutrient deficiency using machine learning. It employs an XGBoost model trained on various demographic and health-related features. The model was developed using the tidymodels framework and demonstrates good predictive performance. Furthermore, the model has been deployed to ensure accessibility and ease of use for healthcare providers and researchers. Access the app here: Childhood Micronutrient Deficiency Prediction Tool"
-  },
-  {
-    "objectID": "projects.html#customer-churn-prediction-app-r-shiny-app",
-    "href": "projects.html#customer-churn-prediction-app-r-shiny-app",
-    "title": "Projects",
-    "section": "Customer Churn Prediction App (R Shiny App)",
-    "text": "Customer Churn Prediction App (R Shiny App)\n\n\n\n\n\n\nThe Customer Churn Prediction App is an interactive tool built with R Shiny that predicts customer churn in the telecommunications sector. This application employs the XGBoost algorithm, integrated with the tidymodels framework, to analyze customer attributes and behaviors, providing insights into churn probability for subscribers of telecom services. Access the app here: Customer Churn Prediction Tool"
-  },
-  {
-    "objectID": "projects.html#spatial-distribution-of-childhood-mn-deficiency",
-    "href": "projects.html#spatial-distribution-of-childhood-mn-deficiency",
-    "title": "Projects",
-    "section": "Spatial distribution of childhood MN deficiency",
-    "text": "Spatial distribution of childhood MN deficiency\n\n\nThe interactive spatial map showed that the spatial variation of childhood micronutrient (MN) deficiency in Ethiopia was most prevalent in the Somali, Afar, and Amhara regions, while the Gambela, Addis Ababa, and Southern Nations, Nationalities, and Peoples (SNNP) regions had the lowest prevalence of MN deficiency.Link"
-  },
-  {
-    "objectID": "projects.html#covid-19-dashboard-the-case-of-ethiopia",
-    "href": "projects.html#covid-19-dashboard-the-case-of-ethiopia",
-    "title": "Projects",
-    "section": "COVID-19 Dashboard: The case of Ethiopia",
-    "text": "COVID-19 Dashboard: The case of Ethiopia\n\n\n\n\n\n\nThis dashboard provides an overview of the Coronavirus (COVID-19) epidemic for Ethiopia. It is built with R using Quarto framework. Check out the Covid-19 dashboard"
-  },
-  {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Resume",
-    "section": "",
-    "text": "Location: Dessie, Ethiopia\n\nPhone: +251 929 45 60 36\n\nEmail: leyk.get@gmail.com\nLinkedIn: LinkedIn\nWebsite: https://leykunget.github.io/\n\nSex: Male | Date of Birth: 17/06/1988 | Place of Birth: Woldia | Nationality: Ethiopian\n\n\n\nData Scientist, Statistician, and Data Analyst with over 10 years of experience in academic and research environments. Proficient in data analysis using R and Python, with expertise in statistical techniques, machine learning, data visualization, and emerging deep learning techniques. Adept at transforming complex data sets into actionable insights to drive strategic decision-making.\n\n\n\nLecturer/Researcher, Statistics, Data Scientist Wollo University, Dessie, Ethiopia September 2016 – Present\n\nTraining (Preparing and delivering statistical software), workshops, and seminars\nTeaching and Learning\nAdvising and supervising\nParticipating in research and community service activities\nResearch Coordinator in the Department of Statistics at Wollo University\n\nLecturer, Statistics Aksum University, Axum, Ethiopia February 2013 - August 2016\n\n\n\nMSc in Statistics Thesis title: “Forecasting of petroleum oil import prices by GARCH models: The case of Ethiopia” School of Graduate Studies, Department of Statistics, Addis Ababa University, Addis Ababa, Ethiopia September 2010 – January 2013\nBSc in Statistics Department of Statistics, University of Gondar, Gondar, Ethiopia Sep 2006 to July 2008\n\n\n\nMy research focuses on the application and development of advanced statistical and machine learning methodologies to solve real-world problems. Key areas include:\n\nMachine Learning and Deep Learning\nTime Series Analysis and Forecasting\nDisease Prediction\nModelling\n\n\n\n\n\nGebeye LG, Dessie EY and Yimam JA (2024). Predictors of micronutrient deficiency among children aged 6–23 months in Ethiopia: a machine learning approach. Front. Nutr. 10:1277048. doi: 10.3389/fnut.2023.1277048\nGetaneh, Leykun (2012). Forecasting of Petroleum Oil Import Prices by GARCH Models: The Case of Ethiopia. Addis Ababa university. Link\n\n\n\n\n\nJuly 28 - Oct 27, 2024: Machine Learning Specialization Certificate from DeepLearning.AI & Stanford University on Coursera. View my certificate\nOct 08 - Oct 27, 2024: Unsupervised Learning, Recommenders, Reinforcement Learning from DeepLearning.AI & Stanford University on Coursera. View my certificate\nAug 21 - Sep 20, 2024 Advanced Learning Algorithms from DeepLearning.AI & Stanford University on Coursera. View my certificate\nJuly 26 - Sep 01, 2024 Data Analysis Fundamentals from Udacity. View my certificate\nMay 31 - June 01, 2024 - Delivered a Data Carpentry Workshop training using spreadsheet, OpenRefine, and R software at Wollo University, Dessie, Ethiopia.Link\nApril 23, 2024: Certified Instructor, The Carpentries - Teaches foundational data science and computational skills to researchers worldwide.\nMay 15 – 19, 2023: Big data analytics for agribusiness and environment using Python from EUDIF project\nMay 06 – 13, 2023: Casual inference from observational data using R, Ethiopian Statistical Association\nMarch 27 – Apr 01, 2023: Digital Data Visualization using Power BI, Ethiopian Statistical Association\nMarch 21 – 25, 2023: Digital Data Collection using Kobo Toolbox, Ethiopian Statistical Association\nMarch 16 – 22, 2023: Introduction to python programming from EUDIF project\nJuly 28 – Nov 2, 2022: Supervised Machine Learning: Regression and Classification from DeepLearning.AI & Stanford University on Coursera. View certificate\nOct 27, 2019 – July 20, 2022: Data Science Specialization from Johns Hopkins University on Coursera. Certificate earned on July 20, 2022. View certificate\nJune 7, 2020 – July 20, 2022: Data Science: Statistics and Machine Learning Specialization from Johns Hopkins University on Coursera. View certificate\nMarch 30 – April 5, 2021: Trainer for “Data Management and Statistical Analysis using R and SPSS”. Provided community service training to High School and Agriculture College teachers in Haik and Kombolcha town, organized by the Research and Publication Directorate office. Covered the fundamentals of data management and statistical analysis using R and SPSS.\nJune 2, 2021: Practical Machine Learning from Johns Hopkins University on Coursera. View certificate\nJuly 26, 2020: Applied Machine Learning in Python from University of Michigan on Coursera. View certificate\nJune 21, 2020: Python for Data Science, AI & Development from IBM on Coursera. View certificate\nMay 16, 2020: Applied Plotting, Charting & Data Representation in Python from University of Michigan on Coursera. View certificate\nApril 22, 2020: Data Science: Foundations using R from Johns Hopkins University on Coursera. View certificate\nDecember 6, 2019: R Programming from Johns Hopkins University on Coursera. View certificate\nOctober 26, 2019: Introduction to Data Science in Python from University of Michigan on Coursera. View certificate\nSeptember 3 – 6, 2019: Trainer for “Introduction to R and RStudio Basics”. Conducted training sessions for academic staff members of the School of Veterinary Medicine at Wollo University, organized by the Research and Publication Directorate office. Covered the fundamentals of R programming language and RStudio software.\nAugust 13 – 16, 2019: Trainer for “Introduction to R and RStudio Basics”. Delivered training to academic staff members of the college of Agriculture at Wollo University, organized by the Research and Publication Directorate office. Covered the fundamentals of R programming language and RStudio software.\nSeptember 3 – 7, 2018: Data analysis and software skill training on data organization in spread sheet, data cleaning in OpenRefine, data analysis and visualization in R and RStudio run by data and software carpentry.\nNovember 25 – December 06, 2017: Trainer for “R statistical computing software for academic staffs of College of Medicine & Health Sciences”. Conducted training sessions for the staff of the College of Medicine and Health Science at Wollo University. The training was organized by the College of Medicine and Health Science in collaboration with Amhara Regional Health Bureau and CDC from November 25, 2017 – December 06, 2017 at Wollo University. The training covered the fundamentals of the R programming language with applications in health science and medicine.\nSeptember, 2013 – June, 2014: The Higher Diploma For Teacher Educator\n\n\n\n\n\nMother tongue(s): Amharic\nOther language(s): English (C2-Proficient user)\nCommunication skills: Good communication skills developed through experience as a lecturer.\nJob-related skills: Good problem-solving skill developed by interaction with colleagues and students in institution\nComputer skills:\n\nPresentation: Microsoft PowerPoint\nSpread sheet: Microsoft Excel\nWord Processing: Microsoft Word\n\n\n\n\n\n\nSoftware Proficiencies: R, Python, STATA, SPSS, SAS\nData Collection Tools: ODK, Kobo Toolbox\nMachine Learning and Predictive Modelling: caret, Tidymodels, scikit-learn, and TensorFlow\nData Visualization and Interactive Web Apps: ggplot, matplotlib, seaborn, R Shiny, Python Shiny, Power BI\n\n\n\n\n\nQuantitative and Qualitative Data Analysis: Leveraging statistical techniques, formulas, and calculations using R and Python to derive meaningful insights.\nData Collection Pipelines: Experience with Open Data Kit (ODK) and Kobo Toolbox.\nStatistical Analysis: Proficient in statistics and packages including Microsoft Excel, STATA, SPSS, SAS, R, Python, and EViews for comprehensive dataset analysis.\nPattern and Trend Analysis: Using advanced statistical tools to identify, analyze, and interpret patterns and trends in complex data sets, aiding in diagnostics and predictions.\nData Cleaning and Visualization: Utilizing R and Python for comprehensive data cleaning, analysis, and visualization.\nMachine Learning Predictive Models: Developing robust predictive models using both R and Python.\nData Visualization: Creating static and interactive maps, dashboards, and visualizations using Leaflet, Shiny, Matplotlib, Seaborn, Plotly, and ggplot2.\nInteractive Web Applications: Building dynamic applications for visualization and analysis with R Shiny and Python Shiny.\nPower BI Expertise: Designing and creating insightful dashboards and reports for effective business intelligence.\nDynamic Reporting: Crafting and publishing interactive, reproducible documents, dashboards, and websites with Quarto.\nProject Management: Efficiently managing data science projects using GitHub for version control and collaboration.\nStatistical Software Training: Providing training on statistical software such as SPSS and R, covering various topics.\n\n\n\n\n\nMemberships: Ethiopian Statistical Association (ESA)\n\n\n\n\nJemal Ayalew Yimam (Ph.D.), Department of Statistics, Wollo University, Dessie, Ethiopia.\n\nPhone: +251920488641\nEmail: jemal4446@yahoo.com\n\nEskezeia Y. Dessie (Ph.D.), Department of Pediatrics, Cincinnati Children’s Hospital Medical Center, University of Cincinnati, College of Medicine, Cincinnati, OH, United States.\n\nPhone: +15137201937\nEmail: eskezeia.dessie@cchmc.org\n\nMesfin Diro (PhD) Program of Computational Data Science, Addis Ababa University, Addis Ababa, Ethiopia.\n\nPhone: +251912086156\nEmail: mesfin.diro@aau.edu.et"
-  },
-  {
-    "objectID": "resume.html#personal-information",
-    "href": "resume.html#personal-information",
-    "title": "Resume",
-    "section": "",
-    "text": "Location: Dessie, Ethiopia\n\nPhone: +251 929 45 60 36\n\nEmail: leyk.get@gmail.com\nLinkedIn: LinkedIn\nWebsite: https://leykunget.github.io/\n\nSex: Male | Date of Birth: 17/06/1988 | Place of Birth: Woldia | Nationality: Ethiopian"
-  },
-  {
-    "objectID": "resume.html#professional-summary",
-    "href": "resume.html#professional-summary",
-    "title": "Resume",
-    "section": "",
-    "text": "Data Scientist, Statistician, and Data Analyst with over 10 years of experience in academic and research environments. Proficient in data analysis using R and Python, with expertise in statistical techniques, machine learning, data visualization, and emerging deep learning techniques. Adept at transforming complex data sets into actionable insights to drive strategic decision-making."
-  },
-  {
-    "objectID": "resume.html#work-experience",
-    "href": "resume.html#work-experience",
-    "title": "Resume",
-    "section": "",
-    "text": "Lecturer/Researcher, Statistics, Data Scientist Wollo University, Dessie, Ethiopia September 2016 – Present\n\nTraining (Preparing and delivering statistical software), workshops, and seminars\nTeaching and Learning\nAdvising and supervising\nParticipating in research and community service activities\nResearch Coordinator in the Department of Statistics at Wollo University\n\nLecturer, Statistics Aksum University, Axum, Ethiopia February 2013 - August 2016"
-  },
-  {
-    "objectID": "resume.html#education",
-    "href": "resume.html#education",
-    "title": "Resume",
-    "section": "",
-    "text": "MSc in Statistics Thesis title: “Forecasting of petroleum oil import prices by GARCH models: The case of Ethiopia” School of Graduate Studies, Department of Statistics, Addis Ababa University, Addis Ababa, Ethiopia September 2010 – January 2013\nBSc in Statistics Department of Statistics, University of Gondar, Gondar, Ethiopia Sep 2006 to July 2008"
-  },
-  {
-    "objectID": "resume.html#research-interests",
-    "href": "resume.html#research-interests",
-    "title": "Resume",
-    "section": "",
-    "text": "My research focuses on the application and development of advanced statistical and machine learning methodologies to solve real-world problems. Key areas include:\n\nMachine Learning and Deep Learning\nTime Series Analysis and Forecasting\nDisease Prediction\nModelling"
-  },
-  {
-    "objectID": "resume.html#publications-research",
-    "href": "resume.html#publications-research",
-    "title": "Resume",
-    "section": "",
-    "text": "Gebeye LG, Dessie EY and Yimam JA (2024). Predictors of micronutrient deficiency among children aged 6–23 months in Ethiopia: a machine learning approach. Front. Nutr. 10:1277048. doi: 10.3389/fnut.2023.1277048\nGetaneh, Leykun (2012). Forecasting of Petroleum Oil Import Prices by GARCH Models: The Case of Ethiopia. Addis Ababa university. Link"
-  },
-  {
-    "objectID": "resume.html#certifications-and-training-experience",
-    "href": "resume.html#certifications-and-training-experience",
-    "title": "Resume",
-    "section": "",
-    "text": "July 28 - Oct 27, 2024: Machine Learning Specialization Certificate from DeepLearning.AI & Stanford University on Coursera. View my certificate\nOct 08 - Oct 27, 2024: Unsupervised Learning, Recommenders, Reinforcement Learning from DeepLearning.AI & Stanford University on Coursera. View my certificate\nAug 21 - Sep 20, 2024 Advanced Learning Algorithms from DeepLearning.AI & Stanford University on Coursera. View my certificate\nJuly 26 - Sep 01, 2024 Data Analysis Fundamentals from Udacity. View my certificate\nMay 31 - June 01, 2024 - Delivered a Data Carpentry Workshop training using spreadsheet, OpenRefine, and R software at Wollo University, Dessie, Ethiopia.Link\nApril 23, 2024: Certified Instructor, The Carpentries - Teaches foundational data science and computational skills to researchers worldwide.\nMay 15 – 19, 2023: Big data analytics for agribusiness and environment using Python from EUDIF project\nMay 06 – 13, 2023: Casual inference from observational data using R, Ethiopian Statistical Association\nMarch 27 – Apr 01, 2023: Digital Data Visualization using Power BI, Ethiopian Statistical Association\nMarch 21 – 25, 2023: Digital Data Collection using Kobo Toolbox, Ethiopian Statistical Association\nMarch 16 – 22, 2023: Introduction to python programming from EUDIF project\nJuly 28 – Nov 2, 2022: Supervised Machine Learning: Regression and Classification from DeepLearning.AI & Stanford University on Coursera. View certificate\nOct 27, 2019 – July 20, 2022: Data Science Specialization from Johns Hopkins University on Coursera. Certificate earned on July 20, 2022. View certificate\nJune 7, 2020 – July 20, 2022: Data Science: Statistics and Machine Learning Specialization from Johns Hopkins University on Coursera. View certificate\nMarch 30 – April 5, 2021: Trainer for “Data Management and Statistical Analysis using R and SPSS”. Provided community service training to High School and Agriculture College teachers in Haik and Kombolcha town, organized by the Research and Publication Directorate office. Covered the fundamentals of data management and statistical analysis using R and SPSS.\nJune 2, 2021: Practical Machine Learning from Johns Hopkins University on Coursera. View certificate\nJuly 26, 2020: Applied Machine Learning in Python from University of Michigan on Coursera. View certificate\nJune 21, 2020: Python for Data Science, AI & Development from IBM on Coursera. View certificate\nMay 16, 2020: Applied Plotting, Charting & Data Representation in Python from University of Michigan on Coursera. View certificate\nApril 22, 2020: Data Science: Foundations using R from Johns Hopkins University on Coursera. View certificate\nDecember 6, 2019: R Programming from Johns Hopkins University on Coursera. View certificate\nOctober 26, 2019: Introduction to Data Science in Python from University of Michigan on Coursera. View certificate\nSeptember 3 – 6, 2019: Trainer for “Introduction to R and RStudio Basics”. Conducted training sessions for academic staff members of the School of Veterinary Medicine at Wollo University, organized by the Research and Publication Directorate office. Covered the fundamentals of R programming language and RStudio software.\nAugust 13 – 16, 2019: Trainer for “Introduction to R and RStudio Basics”. Delivered training to academic staff members of the college of Agriculture at Wollo University, organized by the Research and Publication Directorate office. Covered the fundamentals of R programming language and RStudio software.\nSeptember 3 – 7, 2018: Data analysis and software skill training on data organization in spread sheet, data cleaning in OpenRefine, data analysis and visualization in R and RStudio run by data and software carpentry.\nNovember 25 – December 06, 2017: Trainer for “R statistical computing software for academic staffs of College of Medicine & Health Sciences”. Conducted training sessions for the staff of the College of Medicine and Health Science at Wollo University. The training was organized by the College of Medicine and Health Science in collaboration with Amhara Regional Health Bureau and CDC from November 25, 2017 – December 06, 2017 at Wollo University. The training covered the fundamentals of the R programming language with applications in health science and medicine.\nSeptember, 2013 – June, 2014: The Higher Diploma For Teacher Educator"
-  },
-  {
-    "objectID": "resume.html#personal-skills",
-    "href": "resume.html#personal-skills",
-    "title": "Resume",
-    "section": "",
-    "text": "Mother tongue(s): Amharic\nOther language(s): English (C2-Proficient user)\nCommunication skills: Good communication skills developed through experience as a lecturer.\nJob-related skills: Good problem-solving skill developed by interaction with colleagues and students in institution\nComputer skills:\n\nPresentation: Microsoft PowerPoint\nSpread sheet: Microsoft Excel\nWord Processing: Microsoft Word"
-  },
-  {
-    "objectID": "resume.html#statistical-computing-skills",
-    "href": "resume.html#statistical-computing-skills",
-    "title": "Resume",
-    "section": "",
-    "text": "Software Proficiencies: R, Python, STATA, SPSS, SAS\nData Collection Tools: ODK, Kobo Toolbox\nMachine Learning and Predictive Modelling: caret, Tidymodels, scikit-learn, and TensorFlow\nData Visualization and Interactive Web Apps: ggplot, matplotlib, seaborn, R Shiny, Python Shiny, Power BI"
-  },
-  {
-    "objectID": "resume.html#technical-skills-and-ability",
-    "href": "resume.html#technical-skills-and-ability",
-    "title": "Resume",
-    "section": "",
-    "text": "Quantitative and Qualitative Data Analysis: Leveraging statistical techniques, formulas, and calculations using R and Python to derive meaningful insights.\nData Collection Pipelines: Experience with Open Data Kit (ODK) and Kobo Toolbox.\nStatistical Analysis: Proficient in statistics and packages including Microsoft Excel, STATA, SPSS, SAS, R, Python, and EViews for comprehensive dataset analysis.\nPattern and Trend Analysis: Using advanced statistical tools to identify, analyze, and interpret patterns and trends in complex data sets, aiding in diagnostics and predictions.\nData Cleaning and Visualization: Utilizing R and Python for comprehensive data cleaning, analysis, and visualization.\nMachine Learning Predictive Models: Developing robust predictive models using both R and Python.\nData Visualization: Creating static and interactive maps, dashboards, and visualizations using Leaflet, Shiny, Matplotlib, Seaborn, Plotly, and ggplot2.\nInteractive Web Applications: Building dynamic applications for visualization and analysis with R Shiny and Python Shiny.\nPower BI Expertise: Designing and creating insightful dashboards and reports for effective business intelligence.\nDynamic Reporting: Crafting and publishing interactive, reproducible documents, dashboards, and websites with Quarto.\nProject Management: Efficiently managing data science projects using GitHub for version control and collaboration.\nStatistical Software Training: Providing training on statistical software such as SPSS and R, covering various topics."
-  },
-  {
-    "objectID": "resume.html#additional-information",
-    "href": "resume.html#additional-information",
-    "title": "Resume",
-    "section": "",
-    "text": "Memberships: Ethiopian Statistical Association (ESA)\n\n\n\n\nJemal Ayalew Yimam (Ph.D.), Department of Statistics, Wollo University, Dessie, Ethiopia.\n\nPhone: +251920488641\nEmail: jemal4446@yahoo.com\n\nEskezeia Y. Dessie (Ph.D.), Department of Pediatrics, Cincinnati Children’s Hospital Medical Center, University of Cincinnati, College of Medicine, Cincinnati, OH, United States.\n\nPhone: +15137201937\nEmail: eskezeia.dessie@cchmc.org\n\nMesfin Diro (PhD) Program of Computational Data Science, Addis Ababa University, Addis Ababa, Ethiopia.\n\nPhone: +251912086156\nEmail: mesfin.diro@aau.edu.et"
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Statistical computing I\nStatistical computing II\nRegression Analysis\nEconometrics\nTime series analysis\nProbability Theory\nStatistical Inference"
+    "text": "Lecturer · Data Scientist — Wollo University · Sept 2016 – present\nData Scientist (Contract) · Jan 2025 – present"
   },
   {
     "objectID": "publication.html",
@@ -147,24 +28,164 @@
     "text": "Gebeye LG, Dessie EY and Yimam JA (2024). Predictors of micronutrient deficiency among children aged 6–23 months in Ethiopia: a machine learning approach. Front. Nutr. 10:1277048. https://doi.org/10.3389/fnut.2023.1277048\nGetaneh, Leykun (2012). Forecasting of Petroleum Oil Import Prices by GARCH Models: The Case of Ethiopia. Addis Ababa university. http://10.90.10.223:4000/handle/123456789/3841"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Leykun Getaneh Gebeye",
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
     "section": "",
-    "text": "I am Leykun Getaneh Gebeye is a Senior Lecturer, Data Scientist, Data Analyst, and Statistician with expertise in machine learning, time series analysis, and deep learning. I hold both a BSc and an MSc in Statistics, and am certified in data science and machine learning specializations. With over 10 years of experience, I have a strong background in teaching, advising, and conducting research. I actively contribute to training programs and workshops related to statistical software and am proficient in a wide range of statistical software and programming languages, including R and Python.\nIn addition to my core data science and statistical skillset, I have recently expanded my technical capabilities to include Quarto, cross-language R/Python workflows, and interactive data visualizations. This breadth of expertise enables me to effectively preprocess, analyze, and communicate complex data insights, with specialties in machine learning, deep learning, and time series analysis and forecasting.\nMy research interests include:\n\nMachine Learning and Deep Learning,\nTime Series Analysis and Forecasting,\n\nDisease Prediction,\n\nModelling.\n\n\n\nAddis Ababa University | Addis Ababa, Ethiopia\nMSc in Statistics | Sept 2010 - Jan 2013\nUniversity of Gondar | Gondar, Ethiopia\nBSc in Statistics | Sept 2006 - July 2008\n\n\n\nLecturer | Data Scientist | Wollo University | Sept 2016 - present\nGA-I | GA-II | Lecturer | Aksum University | Feb 2013 - Aug 2016\n\n \n  \n   \n  \n    \n     email\n  \n  \n    \n     twitter\n  \n  \n    \n     Github\n  \n  \n    \n     Linkedin"
+    "text": "Data Scientist | Senior Statistician | Data Analyst\n📍 Addis Ababa, Ethiopia\n📧 leyk.get@gmail.com\n🔗 GitHub | Website | LinkedIn"
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Leykun Getaneh Gebeye",
+    "objectID": "resume.html#leykun-getaneh",
+    "href": "resume.html#leykun-getaneh",
+    "title": "Resume",
     "section": "",
-    "text": "Addis Ababa University | Addis Ababa, Ethiopia\nMSc in Statistics | Sept 2010 - Jan 2013\nUniversity of Gondar | Gondar, Ethiopia\nBSc in Statistics | Sept 2006 - July 2008"
+    "text": "Data Scientist | Senior Statistician | Data Analyst\n📍 Addis Ababa, Ethiopia\n📧 leyk.get@gmail.com\n🔗 GitHub | Website | LinkedIn"
   },
   {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Leykun Getaneh Gebeye",
+    "objectID": "resume.html#summary",
+    "href": "resume.html#summary",
+    "title": "Resume",
+    "section": "🧠 Summary",
+    "text": "🧠 Summary\nData Scientist, Statistician, and Data Analyst with 10+ years of experience in academic and public health research. Skilled in R, Python, and statistical modeling with strong expertise in machine learning and emerging deep learning approaches (including transformer-based models such as TFT).\nExperienced in building predictive models, interactive dashboards, and scalable analytics pipelines using tools like Shiny, Streamlit, and Quarto.\nFocused on applying data science to disease modeling, forecasting, and public health decision support systems."
+  },
+  {
+    "objectID": "resume.html#experience",
+    "href": "resume.html#experience",
+    "title": "Resume",
+    "section": "💼 Experience",
+    "text": "💼 Experience\n\nData Scientist\nNational Data Management and Analytics Center (NDMC), EPHI Jan 2025 – Present\n\nApply machine learning, deep learning, and AI to public health data\nDevelop scalable R/Python analytics pipelines and predictive models\nBuild dashboards using Shiny, Streamlit, and Quarto\nAnalytics & Visualization Team Lead for impactHDSS project\nLead data scientist to Early Warning and Response System (EWARS)\nDeliver training in R and Python for health professionals\nContribute to research outputs and policy-relevant analytics\n\n\n\n\nLecturer / Researcher / Statistician\nWollo University Sep 2016 – Dec 2024\n\nTaught statistics and data science courses\nDelivered training in R, Python, SAS, and SPSS\nSupervised undergraduate research projects\nCoordinated departmental research initiatives"
+  },
+  {
+    "objectID": "resume.html#projects",
+    "href": "resume.html#projects",
+    "title": "Resume",
+    "section": "🔬 Projects",
+    "text": "🔬 Projects\n\nMalaria Forecasting Dashboard\n\nBuilt interactive forecasting system using Shiny\nSupports woreda → national level decision-making\n\n\n\nimpactHDSS Analytics Platform\n\nLed development of analytics pipelines and dashboards\nMulti-site health and demographic surveillance system\n\n\n\nEWARS (Early Warning System)\n\nDesigned outbreak detection algorithms\nIntegrated multi-source surveillance data\n\n\n\nMicronutrient Deficiency Prediction\n\nML-based prediction using DHS data\nPublished in Frontiers in Nutrition\n\n\n\nCOVID-19 Dashboard\n\nNationwide tracking dashboard using Quarto\n\n\n\nEarthquake Tracker\n\nReal-time seismic dashboard using USGS API + Leaflet"
+  },
+  {
+    "objectID": "resume.html#skills",
+    "href": "resume.html#skills",
+    "title": "Resume",
+    "section": "🛠️ Skills",
+    "text": "🛠️ Skills\nProgramming: R (10+ yrs), Python (5+ yrs)\nData Science: Statistical Modeling, Machine Learning, Deep Learning, Time Series Forecasting\nVisualization & Apps: Shiny (R/Python), Streamlit, Plotly, Leaflet, Quarto\nFrameworks: caret, Tidymodels, scikit-learn, TensorFlow, PyTorch"
+  },
+  {
+    "objectID": "resume.html#tools",
+    "href": "resume.html#tools",
+    "title": "Resume",
+    "section": "⚙️ Tools",
+    "text": "⚙️ Tools\nRStudio, VS Code, JupyterLab, Git/GitHub SPSS, Stata, SAS, Power BI Kobo Toolbox, ODK"
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Resume",
+    "section": "🎓 Education",
+    "text": "🎓 Education\nMSc in Statistics Addis Ababa University\n\nThesis: Petroleum oil price forecasting using GARCH\n\nBSc in Statistics University of Gondar"
+  },
+  {
+    "objectID": "resume.html#publications",
+    "href": "resume.html#publications",
+    "title": "Resume",
+    "section": "📄 Publications",
+    "text": "📄 Publications\nPredictors of Micronutrient Deficiency in Children (2024) Frontiers in Nutrition DOI: https://doi.org/10.3389/fnut.2023.1277048"
+  },
+  {
+    "objectID": "resume.html#certifications-training",
+    "href": "resume.html#certifications-training",
+    "title": "Resume",
+    "section": "🎓 Certifications & Training",
+    "text": "🎓 Certifications & Training\n\nMachine Learning Specialization – DeepLearning.AI / Stanford (2024)\nCertified Instructor – The Carpentries (2024)\nData Science Specialization – Johns Hopkins University\nMultiple R & Data Science Trainings (EPHI, NDMC, HDSS)"
+  },
+  {
+    "objectID": "resume.html#languages",
+    "href": "resume.html#languages",
+    "title": "Resume",
+    "section": "🌍 Languages",
+    "text": "🌍 Languages\n\nEnglish (Proficient)\nAmharic (Native)"
+  },
+  {
+    "objectID": "resume.html#research-interests",
+    "href": "resume.html#research-interests",
+    "title": "Resume",
+    "section": "🔎 Research Interests",
+    "text": "🔎 Research Interests\n\nMachine Learning & Deep Learning\nDisease Modeling & Forecasting\nTime Series Analysis"
+  },
+  {
+    "objectID": "training.html",
+    "href": "training.html",
+    "title": "Training",
     "section": "",
-    "text": "Lecturer | Data Scientist | Wollo University | Sept 2016 - present\nGA-I | GA-II | Lecturer | Aksum University | Feb 2013 - Aug 2016"
+    "text": "🔗 Training link"
+  },
+  {
+    "objectID": "training.html#basic-r-training-ndmc-ephi-2026-april-28-may-2-2026",
+    "href": "training.html#basic-r-training-ndmc-ephi-2026-april-28-may-2-2026",
+    "title": "Training",
+    "section": "",
+    "text": "🔗 Training link"
+  },
+  {
+    "objectID": "training.html#basic-r-training-organized-by-the-health-system-research-directorate-ephi-october-14-17-2025",
+    "href": "training.html#basic-r-training-organized-by-the-health-system-research-directorate-ephi-october-14-17-2025",
+    "title": "Training",
+    "section": "Basic R training organized by the Health System Research Directorate, EPHI (October 14 – 17, 2025)",
+    "text": "Basic R training organized by the Health System Research Directorate, EPHI (October 14 – 17, 2025)\n🔗 Training link"
+  },
+  {
+    "objectID": "training.html#data-carpentry-with-r-workshop-may-31-jun-01-2024",
+    "href": "training.html#data-carpentry-with-r-workshop-may-31-jun-01-2024",
+    "title": "Training",
+    "section": "Data Carpentry with R Workshop (May 31-Jun 01, 2024)",
+    "text": "Data Carpentry with R Workshop (May 31-Jun 01, 2024)\n🔗 Training link"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Projects I have built — spanning public health dashboards, predictive tools, and geospatial analytics."
+  },
+  {
+    "objectID": "projects.html#malaria-forecasting-dashboard",
+    "href": "projects.html#malaria-forecasting-dashboard",
+    "title": "Projects",
+    "section": "Malaria Forecasting Dashboard",
+    "text": "Malaria Forecasting Dashboard\nAn interactive malaria forecasting dashboard for public health monitoring and decision support. Built with R Shiny / Python Shiny, it provides real-time visualization of forecasted incidence trends and supports woreda-level, regional, and national public health decision-making.\n→ View the application"
+  },
+  {
+    "objectID": "projects.html#ethiopia-earthquake-tracker",
+    "href": "projects.html#ethiopia-earthquake-tracker",
+    "title": "Projects",
+    "section": "Ethiopia Earthquake Tracker",
+    "text": "Ethiopia Earthquake Tracker\nA real-time web application monitoring seismic activity across Ethiopia, built with R Shiny. With Ethiopia experiencing a series of earthquakes, this tool has become more essential than ever.\nKey features: Live earthquake tracking via USGS · Interactive map visualization · Auto-refresh every 5 minutes · Magnitude range filtering\n→ View the application"
+  },
+  {
+    "objectID": "projects.html#childhood-micronutrient-deficiency-prediction",
+    "href": "projects.html#childhood-micronutrient-deficiency-prediction",
+    "title": "Projects",
+    "section": "Childhood Micronutrient Deficiency Prediction",
+    "text": "Childhood Micronutrient Deficiency Prediction\nAn interactive prediction tool built with R Shiny that predicts childhood micronutrient deficiency using machine learning. The app employs an XGBoost model trained on demographic and health-related features, developed using the Tidymodels framework.\n→ View the application"
+  },
+  {
+    "objectID": "projects.html#customer-churn-prediction-app",
+    "href": "projects.html#customer-churn-prediction-app",
+    "title": "Projects",
+    "section": "Customer Churn Prediction App",
+    "text": "Customer Churn Prediction App\nAn interactive churn prediction tool built with R Shiny for the telecommunications sector. Uses the XGBoost algorithm integrated with the Tidymodels framework to analyze customer attributes and behaviors, providing insights into churn probability.\n→ View the application"
+  },
+  {
+    "objectID": "projects.html#spatial-distribution-of-childhood-mn-deficiency",
+    "href": "projects.html#spatial-distribution-of-childhood-mn-deficiency",
+    "title": "Projects",
+    "section": "Spatial Distribution of Childhood MN Deficiency",
+    "text": "Spatial Distribution of Childhood MN Deficiency\nAn interactive spatial map showing that childhood micronutrient (MN) deficiency in Ethiopia is most prevalent in the Somali, Afar, and Amhara regions, while Gambela, Addis Ababa, and SNNP regions have the lowest prevalence.\n→ View the publication"
+  },
+  {
+    "objectID": "projects.html#covid-19-dashboard-the-case-of-ethiopia",
+    "href": "projects.html#covid-19-dashboard-the-case-of-ethiopia",
+    "title": "Projects",
+    "section": "COVID-19 Dashboard: The Case of Ethiopia",
+    "text": "COVID-19 Dashboard: The Case of Ethiopia\nA comprehensive overview of the COVID-19 epidemic in Ethiopia. Built with R and the Quarto framework, this dashboard provides epidemiological trends, case statistics, and visualizations for evidence-based public health response.\n→ View the dashboard"
   }
 ]

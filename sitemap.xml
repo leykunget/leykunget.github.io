@@ -1,35 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://leykunget.github.io/blog.html</loc>
-    <lastmod>2024-06-21T11:33:48.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://leykunget.github.io/projects.html</loc>
-    <lastmod>2025-01-16T11:42:06.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://leykunget.github.io/time-series-analysis.html</loc>
-    <lastmod>2024-06-07T14:15:30.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://leykunget.github.io/resume.html</loc>
-    <lastmod>2025-06-25T16:18:58.573Z</lastmod>
-  </url>
-  <url>
-    <loc>https://leykunget.github.io/teaching.html</loc>
-    <lastmod>2024-06-07T14:15:30.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://leykunget.github.io/posts/CLT-shinylive-demo/index.html</loc>
-    <lastmod>2025-05-26T11:06:53.519Z</lastmod>
+    <loc>https://leykunget.github.io/index.html</loc>
+    <lastmod>2026-05-03T19:42:48.673Z</lastmod>
   </url>
   <url>
     <loc>https://leykunget.github.io/publication.html</loc>
-    <lastmod>2024-06-28T12:38:38.000Z</lastmod>
+    <lastmod>2026-05-03T19:42:48.673Z</lastmod>
   </url>
   <url>
-    <loc>https://leykunget.github.io/index.html</loc>
-    <lastmod>2025-05-26T08:57:21.661Z</lastmod>
+    <loc>https://leykunget.github.io/resume.html</loc>
+    <lastmod>2026-05-03T19:42:48.674Z</lastmod>
+  </url>
+  <url>
+    <loc>https://leykunget.github.io/training.html</loc>
+    <lastmod>2026-05-03T19:42:48.674Z</lastmod>
+  </url>
+  <url>
+    <loc>https://leykunget.github.io/projects.html</loc>
+    <lastmod>2026-05-03T19:42:48.673Z</lastmod>
   </url>
 </urlset>
