@@ -1,31 +1,17 @@
 [
   {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Leykun Getaneh",
+    "section": "",
+    "text": "Portfolio\n\nProjects\n\n\nData products I have built — spanning disease forecasting, public health analytics, HDSS, predictive modeling, geospatial analysis, and dashboards.\n\n\n\n\n\n\n\nDisease Forecasting · Shiny\n\nMalaria Forecasting Dashboard\nAn interactive malaria forecasting dashboard for public health monitoring and decision support. Built with R / Python Shiny, it provides real-time visualization of forecasted incidence trends and supports woreda-level, regional, and national decision-making.\nLive application\n\n\n\n\n\n\n\n\nPublic Health · HDSS\n\nimpactHDSS Analytics Platform\nAnalytics & Visualization team lead for the impactHDSS project — a multi-site Health & Demographic Surveillance System. Led development of analytics pipelines and dashboards that turn longitudinal population data into actionable insight.\nSee in resume\n\n\n\n\n\n\n\n\nSurveillance · Early Warning\n\nEWARS — Early Warning & Response\nLead data scientist for an Early Warning and Response System: designing outbreak-detection algorithms and integrating multi-source surveillance data to flag public health threats earlier.\nSee in resume\n\n\n\n\n\n\n\n\nMachine Learning\n\nChildhood Micronutrient Deficiency Prediction\nAn interactive prediction tool built with R Shiny that predicts childhood micronutrient deficiency using machine learning. Employs an XGBoost model trained on demographic and health-related features, developed with the Tidymodels framework.\nLive application\n\n\n\n\n\n\n\n\nMachine Learning\n\nCustomer Churn Prediction App\nAn interactive churn prediction tool built with R Shiny for the telecommunications sector. Uses XGBoost with the Tidymodels framework to analyze customer attributes and behaviors, providing insight into churn probability.\nLive application\n\n\n\n\n\n\n\n\nGeospatial · Real-time\n\nEthiopia Earthquake Tracker\nA real-time web application monitoring seismic activity across Ethiopia, built with R Shiny. Features live earthquake tracking via USGS, interactive map visualization, auto-refresh every 5 minutes, and magnitude-range filtering.\nLive application\n\n\n\n\n\n\n\n\nGeospatial · Public Health\n\nSpatial Distribution of Childhood MN Deficiency\nAn interactive spatial map showing that childhood micronutrient deficiency in Ethiopia is most prevalent in the Somali, Afar, and Amhara regions, while Gambela, Addis Ababa, and SNNP have the lowest prevalence.\nView publication\n\n\n\n\n\n\n\n\nDashboard\n\nCOVID-19 Dashboard: The Case of Ethiopia\nA comprehensive overview of the COVID-19 epidemic in Ethiopia. Built with R and the Quarto framework, this dashboard provides epidemiological trends, case statistics, and visualizations for evidence-based public health response.\nView dashboard"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Leykun Getaneh Gebeye",
+    "title": "Hi, I’m Leykun Getaneh",
     "section": "",
-    "text": "Data Scientist · Statistician · Data Analyst\n\nI am a Data Scientist, Statistician, and Data Analyst with over a decade of experience at the intersection of academic research and applied analytics. My work bridges statistics, machine learning, and deep learning — with a particular focus on applying data science to disease modeling, forecasting, and public health decision support systems.\nI transform complex data into actionable insights using R, Python, SAS, Stata, and SPSS. My modeling toolkit spans Tidymodels, TensorFlow, and PyTorch, including transformer-based approaches like Temporal Fusion Transformers (TFT).\nBeyond modeling, I build interactive data products and reproducible analytical workflows with R Shiny, Python Shiny, Streamlit, Plotly, and Quarto — communicating results through dynamic visualizations, dashboards, and automated reporting.\nResearch interests\n\nMachine Learning and Deep Learning\nTime Series Analysis and Forecasting\nDisease Prediction and Modelling\n\n\n\nAddis Ababa University · Addis Ababa, Ethiopia\nMSc in Statistics · Sept 2010 – Jan 2013\nUniversity of Gondar · Gondar, Ethiopia\nBSc in Statistics · Sept 2006 – July 2008\n\n\n\nLecturer · Data Scientist — Wollo University · Sept 2016 – present\nData Scientist (Contract) — NDMC, EPHI . Jan 2025 – present\n\n \n  \n   \n  \n    \n     Email\n  \n  \n    \n     Twitter\n  \n  \n    \n     GitHub\n  \n  \n    \n     LinkedIn"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Leykun Getaneh Gebeye",
-    "section": "",
-    "text": "Addis Ababa University · Addis Ababa, Ethiopia\nMSc in Statistics · Sept 2010 – Jan 2013\nUniversity of Gondar · Gondar, Ethiopia\nBSc in Statistics · Sept 2006 – July 2008"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Leykun Getaneh Gebeye",
-    "section": "",
-    "text": "Lecturer · Data Scientist — Wollo University · Sept 2016 – present\nData Scientist (Contract) — NDMC, EPHI . Jan 2025 – present"
-  },
-  {
-    "objectID": "publication.html",
-    "href": "publication.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Gebeye LG, Dessie EY and Yimam JA (2024). Predictors of micronutrient deficiency among children aged 6–23 months in Ethiopia: a machine learning approach. Front. Nutr. 10:1277048. https://doi.org/10.3389/fnut.2023.1277048\nGetaneh, Leykun (2012). Forecasting of Petroleum Oil Import Prices by GARCH Models: The Case of Ethiopia. Addis Ababa university. http://10.90.10.223:4000/handle/123456789/3841"
+    "text": "Available for collaboration\n\nHi, I’m Leykun Getaneh\n\nData Scientist · Statistician · Data Analyst\n\n\nI bring 10+ years of experience in research, analytics, and data science, applying R, Python, and modern machine learning and deep learning methods to solve challenges in disease forecasting, predictive modeling, and public health decision-making. My work focuses on turning complex data into actionable insights and decision-support tools.\n\n\nView Projects \n\n\n   \n\n\n\n\n\n\n\n\n\n\n\n\n\n10+ Years of experience\n\n\n6+ Data products deployed\n\n\n5+ Languages & tools\n\n\n2 Peer-reviewed publications\n\n\n\n\n\n\n\nWhat I do\n\nFrom raw data to real-world decisions\n\n\nI combine statistical rigor with engineering to deliver analytics that public health teams can act on.\n\n\n\n\n\nModeling & Forecasting\nStatistical, machine learning, and deep learning models for disease prediction and time-series forecasting — including transformer-based approaches like Temporal Fusion Transformers.\n\nTidymodels TensorFlow PyTorch TFT\n\n\n\n\n\n\nPublic Health Analytics\nAnalytics pipelines and decision-support systems for surveillance, early warning, and demographic health data — from woreda level to national scale.\n\nEWARS HDSS Surveillance\n\n\n\n\n\n\nInteractive Data Products\nDashboards, prediction apps, and automated reports that make results accessible and reproducible for non-technical stakeholders.\n\nR Shiny Streamlit Quarto Plotly\n\n\n\n\n\n\n\n\n\nSelected work\n\nFeatured projects\n\n\nA few products spanning disease forecasting, public health analytics, HDSS, and dashboards.\n\n\n\n\n\n\n\nDisease Forecasting\n\nMalaria Forecasting Dashboard\nInteractive forecasting system for public health monitoring — real-time visualization of forecasted incidence supporting woreda, regional, and national decisions. Built with R / Python Shiny.\nLive application\n\n\n\n\n\n\n\n\nPublic Health · HDSS\n\nimpactHDSS Analytics Platform\nAnalytics & Visualization lead for a multi-site Health & Demographic Surveillance System — building pipelines and dashboards that turn longitudinal population data into insight.\nSee in resume\n\n\n\n\n\n\n\n\nMachine Learning\n\nChildhood Micronutrient Deficiency\nML prediction tool estimating childhood micronutrient deficiency from demographic and health features — an XGBoost model built with the Tidymodels framework.\nLive application\n\n\n\n\n\n\n\n\nDashboard\n\nCOVID-19 Dashboard: Ethiopia\nA comprehensive view of the COVID-19 epidemic in Ethiopia — epidemiological trends, case statistics, and visualizations for evidence-based response. Built with R and Quarto.\nView dashboard\n\n\n\n\n\nBrowse all projects\n\n\n\n\n\n\nBackground\n\nExperience & education\n\n\n\nExperience\n\n\nData Scientist National Data Management & Analytics Center (NDMC), EPHI Jan 2025 – Present\n\n\nLecturer · Data Scientist Wollo University Sep 2016 – Present\n\n\n\n\n\nEducation\n\n\nMSc in Statistics Addis Ababa University, Ethiopia Sep 2010 – Jan 2013\n\n\nBSc in Statistics University of Gondar, Ethiopia Sep 2006 – Jul 2008\n\n\n\n\nCore stack\n\nR Python SAS Stata SPSS Git\n\n\n\n\n\nView full resume Get in touch"
   },
   {
     "objectID": "resume.html",
@@ -74,7 +60,7 @@
     "href": "resume.html#tools",
     "title": "Resume",
     "section": "⚙️ Tools",
-    "text": "⚙️ Tools\nRStudio, VS Code, JupyterLab, Git/GitHub\nSPSS, Stata, SAS, Power BI\nKobo Toolbox, ODK"
+    "text": "⚙️ Tools\nRStudio, Positron, VS Code, JupyterLab, Git/GitHub\nSPSS, Stata, SAS, Power BI\nKobo Toolbox, ODK"
   },
   {
     "objectID": "resume.html#education",
@@ -116,76 +102,13 @@
     "href": "training.html",
     "title": "Training",
     "section": "",
-    "text": "🔗 Training link"
+    "text": "Workshops and trainings I have designed and delivered for researchers and health professionals.\n\n\nBasic R Training — NDMC, EPHI (April 28 – May 2, 2026). Training materials\nBasic R Training — Health System Research Directorate, EPHI (October 14 – 17, 2025). Training materials\nData Carpentry with R Workshop (May 31 – June 1, 2024). Workshop site"
   },
   {
-    "objectID": "training.html#basic-r-training-ndmc-ephi-2026-april-28-may-2-2026",
-    "href": "training.html#basic-r-training-ndmc-ephi-2026-april-28-may-2-2026",
-    "title": "Training",
+    "objectID": "publication.html",
+    "href": "publication.html",
+    "title": "Publications",
     "section": "",
-    "text": "🔗 Training link"
-  },
-  {
-    "objectID": "training.html#basic-r-training-organized-by-the-health-system-research-directorate-ephi-october-14-17-2025",
-    "href": "training.html#basic-r-training-organized-by-the-health-system-research-directorate-ephi-october-14-17-2025",
-    "title": "Training",
-    "section": "Basic R training organized by the Health System Research Directorate, EPHI (October 14 – 17, 2025)",
-    "text": "Basic R training organized by the Health System Research Directorate, EPHI (October 14 – 17, 2025)\n🔗 Training link"
-  },
-  {
-    "objectID": "training.html#data-carpentry-with-r-workshop-may-31-jun-01-2024",
-    "href": "training.html#data-carpentry-with-r-workshop-may-31-jun-01-2024",
-    "title": "Training",
-    "section": "Data Carpentry with R Workshop (May 31-Jun 01, 2024)",
-    "text": "Data Carpentry with R Workshop (May 31-Jun 01, 2024)\n🔗 Training link"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Projects I have built — spanning public health dashboards, predictive tools, and geospatial analytics."
-  },
-  {
-    "objectID": "projects.html#malaria-forecasting-dashboard",
-    "href": "projects.html#malaria-forecasting-dashboard",
-    "title": "Projects",
-    "section": "Malaria Forecasting Dashboard",
-    "text": "Malaria Forecasting Dashboard\nAn interactive malaria forecasting dashboard for public health monitoring and decision support. Built with R Shiny / Python Shiny, it provides real-time visualization of forecasted incidence trends and supports woreda-level, regional, and national public health decision-making.\n→ View the application"
-  },
-  {
-    "objectID": "projects.html#ethiopia-earthquake-tracker",
-    "href": "projects.html#ethiopia-earthquake-tracker",
-    "title": "Projects",
-    "section": "Ethiopia Earthquake Tracker",
-    "text": "Ethiopia Earthquake Tracker\nA real-time web application monitoring seismic activity across Ethiopia, built with R Shiny. With Ethiopia experiencing a series of earthquakes, this tool has become more essential than ever.\nKey features: Live earthquake tracking via USGS · Interactive map visualization · Auto-refresh every 5 minutes · Magnitude range filtering\n→ View the application"
-  },
-  {
-    "objectID": "projects.html#childhood-micronutrient-deficiency-prediction",
-    "href": "projects.html#childhood-micronutrient-deficiency-prediction",
-    "title": "Projects",
-    "section": "Childhood Micronutrient Deficiency Prediction",
-    "text": "Childhood Micronutrient Deficiency Prediction\nAn interactive prediction tool built with R Shiny that predicts childhood micronutrient deficiency using machine learning. The app employs an XGBoost model trained on demographic and health-related features, developed using the Tidymodels framework.\n→ View the application"
-  },
-  {
-    "objectID": "projects.html#customer-churn-prediction-app",
-    "href": "projects.html#customer-churn-prediction-app",
-    "title": "Projects",
-    "section": "Customer Churn Prediction App",
-    "text": "Customer Churn Prediction App\nAn interactive churn prediction tool built with R Shiny for the telecommunications sector. Uses the XGBoost algorithm integrated with the Tidymodels framework to analyze customer attributes and behaviors, providing insights into churn probability.\n→ View the application"
-  },
-  {
-    "objectID": "projects.html#spatial-distribution-of-childhood-mn-deficiency",
-    "href": "projects.html#spatial-distribution-of-childhood-mn-deficiency",
-    "title": "Projects",
-    "section": "Spatial Distribution of Childhood MN Deficiency",
-    "text": "Spatial Distribution of Childhood MN Deficiency\nAn interactive spatial map showing that childhood micronutrient (MN) deficiency in Ethiopia is most prevalent in the Somali, Afar, and Amhara regions, while Gambela, Addis Ababa, and SNNP regions have the lowest prevalence.\n→ View the publication"
-  },
-  {
-    "objectID": "projects.html#covid-19-dashboard-the-case-of-ethiopia",
-    "href": "projects.html#covid-19-dashboard-the-case-of-ethiopia",
-    "title": "Projects",
-    "section": "COVID-19 Dashboard: The Case of Ethiopia",
-    "text": "COVID-19 Dashboard: The Case of Ethiopia\nA comprehensive overview of the COVID-19 epidemic in Ethiopia. Built with R and the Quarto framework, this dashboard provides epidemiological trends, case statistics, and visualizations for evidence-based public health response.\n→ View the dashboard"
+    "text": "Gebeye LG, Dessie EY and Yimam JA (2024). Predictors of micronutrient deficiency among children aged 6–23 months in Ethiopia: a machine learning approach. Front. Nutr. 10:1277048. https://doi.org/10.3389/fnut.2023.1277048\nGetaneh, Leykun (2012). Forecasting of Petroleum Oil Import Prices by GARCH Models: The Case of Ethiopia. Addis Ababa University. View thesis"
   }
 ]
