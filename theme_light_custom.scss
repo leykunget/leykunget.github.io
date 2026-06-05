@@ -1,8 +1,23 @@
 /*-- scss:defaults --*/
-// Base document colors
-$navbar-bg: #004E4F;
 
+// Light-mode Bootstrap variable layer.
+// Runtime CSS custom properties live in styles.scss.
 
-// Code blocks
-$code-block-bg-alpha: -.8;
+$body-bg:            #FFFFFF;
+$body-color:         #0F172A;
+$link-color:         #0D9488;
+$link-hover-color:   #0F766E;
+$headings-color:     #0F172A;
 
+// Light navbar: white background, dark slate foreground.
+// NOTE: Quarto stamps data-bs-theme="dark" on the <nav> element (shared
+// across both bundles), so Bootstrap 5.3 tries to paint the brand/links with
+// its dark-mode emphasis colour. These vars set the base intent; the brand &
+// link colours are then enforced with !important in styles.scss .navbar.
+$navbar-bg:          #FFFFFF;
+$navbar-fg:          #475569;  // slate-600 — nav links & icons
+$navbar-hl:          #0D9488;  // teal — hover/active highlight
+$navbar-brand-color: #0F172A;  // slate-900 — brand wordmark
+
+$code-block-bg:      #F8FAFC;
+$code-color:         #0F766E;

@@ -105,7 +105,7 @@ caret, Tidymodels, scikit-learn, TensorFlow, PyTorch
 
 ## ⚙️ Tools
 
-RStudio, VS Code, JupyterLab, Git/GitHub \
+RStudio, Positron, VS Code, JupyterLab, Git/GitHub \
 SPSS, Stata, SAS, Power BI \
 Kobo Toolbox, ODK
 

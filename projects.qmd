@@ -1,101 +1,145 @@
 ---
-title: "Projects"
-page-layout: article
+pagetitle: "Projects — Leykun Getaneh"
+description-meta: "Data science projects: disease forecasting, public health analytics, HDSS, prediction apps, and dashboards."
+page-layout: full
 toc: false
+anchor-sections: false
 ---
 
-::: {.projects-intro}
-Projects I have built — spanning public health dashboards, predictive tools, and geospatial analytics.
+::: {.section .tight}
+::: {.wrap}
+[Portfolio]{.eyebrow}
+
+::: {.section-title}
+Projects
 :::
 
-::: {.project-card}
-::: {.project-card-inner}
-::: {.project-text}
-## Malaria Forecasting Dashboard {.project-title}
-
-An interactive malaria forecasting dashboard for public health monitoring and decision support. Built with **R Shiny / Python Shiny**, it provides real-time visualization of forecasted incidence trends and supports woreda-level, regional, and national public health decision-making.
-
-[→ View the application](https://leykunget-malaria-forecasting-dashboard.share.connect.posit.cloud/){.project-link}
-:::
-::: {.project-img}
-![Malaria Forecasting Dashboard](img/malaria_dashborad){.project-thumbnail}
-:::
-:::
+::: {.section-sub}
+Data products I have built — spanning disease forecasting, public health analytics, HDSS, predictive modeling, geospatial analysis, and dashboards.
 :::
 
-::: {.project-card}
-::: {.project-card-inner}
-::: {.project-img}
-![Ethiopia Earthquake Tracker](img/eth-eartquake-tracker.jpg){.project-thumbnail}
+::: {.pgrid}
+
+::: {.pcard}
+::: {.pcard-media}
+![](img/malaria_forecasting_dashboard.png){fig-alt="Malaria Forecasting Dashboard"}
 :::
-::: {.project-text}
-## Ethiopia Earthquake Tracker {.project-title}
+::: {.pcard-body}
+[Disease Forecasting · Shiny]{.pcard-tag}
 
-A real-time web application monitoring seismic activity across Ethiopia, built with **R Shiny**. With Ethiopia experiencing a series of earthquakes, this tool has become more essential than ever.
+### Malaria Forecasting Dashboard
 
-**Key features:** Live earthquake tracking via USGS · Interactive map visualization · Auto-refresh every 5 minutes · Magnitude range filtering
+An interactive malaria forecasting dashboard for public health monitoring and decision support. Built with R / Python Shiny, it provides real-time visualization of forecasted incidence trends and supports woreda-level, regional, and national decision-making.
 
-[→ View the application](https://0194598d-2226-dd34-14a9-412189b7b1dc.share.connect.posit.cloud/){.project-link}
-:::
+[Live application](https://leykunget-malaria-forecasting-dashboard.share.connect.posit.cloud/){.pcard-link target="_blank"}
 :::
 :::
 
-::: {.project-card}
-::: {.project-card-inner}
-::: {.project-text}
-## Childhood Micronutrient Deficiency Prediction {.project-title}
+::: {.pcard}
+::: {.pcard-media .grad}
+<i class="bi bi-diagram-3"></i>
+:::
+::: {.pcard-body}
+[Public Health · HDSS]{.pcard-tag}
 
-An interactive prediction tool built with **R Shiny** that predicts childhood micronutrient deficiency using machine learning. The app employs an **XGBoost** model trained on demographic and health-related features, developed using the **Tidymodels** framework.
+### impactHDSS Analytics Platform
 
-[→ View the application](https://0194116f-8c9c-5c28-a013-67ea84d093e2.share.connect.posit.cloud/){.project-link}
-:::
-::: {.project-img}
-![Micronutrient Deficiency Prediction App](img/mnd-prediction-app.gif){.project-thumbnail}
-:::
-:::
-:::
+Analytics & Visualization team lead for the impactHDSS project — a multi-site Health & Demographic Surveillance System. Led development of analytics pipelines and dashboards that turn longitudinal population data into actionable insight.
 
-::: {.project-card}
-::: {.project-card-inner}
-::: {.project-img}
-![Customer Churn Prediction App](img/shiny-churn-pred-app.gif){.project-thumbnail}
-:::
-::: {.project-text}
-## Customer Churn Prediction App {.project-title}
-
-An interactive churn prediction tool built with **R Shiny** for the telecommunications sector. Uses the **XGBoost** algorithm integrated with the **Tidymodels** framework to analyze customer attributes and behaviors, providing insights into churn probability.
-
-[→ View the application](https://0193b6f9-2fb2-3ecb-98eb-06390ec0cf9b.share.connect.posit.cloud/){.project-link}
-:::
+[See in resume](resume.qmd){.pcard-link}
 :::
 :::
 
-::: {.project-card}
-::: {.project-card-inner}
-::: {.project-text}
-## Spatial Distribution of Childhood MN Deficiency {.project-title}
-
-An interactive spatial map showing that childhood **micronutrient (MN) deficiency** in Ethiopia is most prevalent in the Somali, Afar, and Amhara regions, while Gambela, Addis Ababa, and SNNP regions have the lowest prevalence.
-
-[→ View the publication](https://leykungetaneh.quarto.pub/spatial-distribution-of-childhood-mn-deficiency/){.project-link}
+::: {.pcard}
+::: {.pcard-media .grad}
+<i class="bi bi-exclamation-triangle"></i>
 :::
-::: {.project-img}
-![Spatial MN Deficiency Map](img/spatial_map.jpg){.project-thumbnail}
-:::
+::: {.pcard-body}
+[Surveillance · Early Warning]{.pcard-tag}
+
+### EWARS — Early Warning & Response
+
+Lead data scientist for an Early Warning and Response System: designing outbreak-detection algorithms and integrating multi-source surveillance data to flag public health threats earlier.
+
+[See in resume](resume.qmd){.pcard-link}
 :::
 :::
 
-::: {.project-card}
-::: {.project-card-inner}
-::: {.project-img}
-![COVID-19 Ethiopia Dashboard](img/covid-19-q-dashboard.jpg){.project-thumbnail}
+::: {.pcard}
+::: {.pcard-media}
+![](img/mnd-prediction-app.gif){fig-alt="Childhood Micronutrient Deficiency Prediction app"}
 :::
-::: {.project-text}
-## COVID-19 Dashboard: The Case of Ethiopia {.project-title}
+::: {.pcard-body}
+[Machine Learning]{.pcard-tag}
 
-A comprehensive overview of the COVID-19 epidemic in Ethiopia. Built with **R** and the **Quarto** framework, this dashboard provides epidemiological trends, case statistics, and visualizations for evidence-based public health response.
+### Childhood Micronutrient Deficiency Prediction
 
-[→ View the dashboard](https://leykungetaneh.quarto.pub/covid-19-in-ethiopia/covid-19-et-dashboard.html){.project-link target="_blank"}
+An interactive prediction tool built with R Shiny that predicts childhood micronutrient deficiency using machine learning. Employs an XGBoost model trained on demographic and health-related features, developed with the Tidymodels framework.
+
+[Live application](https://0194116f-8c9c-5c28-a013-67ea84d093e2.share.connect.posit.cloud/){.pcard-link target="_blank"}
+:::
+:::
+
+::: {.pcard}
+::: {.pcard-media}
+![](img/shiny-churn-pred-app.gif){fig-alt="Customer Churn Prediction app"}
+:::
+::: {.pcard-body}
+[Machine Learning]{.pcard-tag}
+
+### Customer Churn Prediction App
+
+An interactive churn prediction tool built with R Shiny for the telecommunications sector. Uses XGBoost with the Tidymodels framework to analyze customer attributes and behaviors, providing insight into churn probability.
+
+[Live application](https://0193b6f9-2fb2-3ecb-98eb-06390ec0cf9b.share.connect.posit.cloud/){.pcard-link target="_blank"}
+:::
+:::
+
+::: {.pcard}
+::: {.pcard-media}
+![](img/eth-eartquake-tracker.jpg){fig-alt="Ethiopia Earthquake Tracker"}
+:::
+::: {.pcard-body}
+[Geospatial · Real-time]{.pcard-tag}
+
+### Ethiopia Earthquake Tracker
+
+A real-time web application monitoring seismic activity across Ethiopia, built with R Shiny. Features live earthquake tracking via USGS, interactive map visualization, auto-refresh every 5 minutes, and magnitude-range filtering.
+
+[Live application](https://0194598d-2226-dd34-14a9-412189b7b1dc.share.connect.posit.cloud/){.pcard-link target="_blank"}
+:::
+:::
+
+::: {.pcard}
+::: {.pcard-media}
+![](img/spatial_map.jpg){fig-alt="Spatial micronutrient deficiency map of Ethiopia"}
+:::
+::: {.pcard-body}
+[Geospatial · Public Health]{.pcard-tag}
+
+### Spatial Distribution of Childhood MN Deficiency
+
+An interactive spatial map showing that childhood micronutrient deficiency in Ethiopia is most prevalent in the Somali, Afar, and Amhara regions, while Gambela, Addis Ababa, and SNNP have the lowest prevalence.
+
+[View publication](https://leykungetaneh.quarto.pub/spatial-distribution-of-childhood-mn-deficiency/){.pcard-link target="_blank"}
+:::
+:::
+
+::: {.pcard}
+::: {.pcard-media}
+![](img/covid-19-q-dashboard.jpg){fig-alt="COVID-19 Ethiopia Dashboard"}
+:::
+::: {.pcard-body}
+[Dashboard]{.pcard-tag}
+
+### COVID-19 Dashboard: The Case of Ethiopia
+
+A comprehensive overview of the COVID-19 epidemic in Ethiopia. Built with R and the Quarto framework, this dashboard provides epidemiological trends, case statistics, and visualizations for evidence-based public health response.
+
+[View dashboard](https://leykungetaneh.quarto.pub/covid-19-in-ethiopia/covid-19-et-dashboard.html){.pcard-link target="_blank"}
+:::
+:::
+
 :::
 :::
 :::

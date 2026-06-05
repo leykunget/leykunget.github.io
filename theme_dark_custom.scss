@@ -1,17 +1,17 @@
 /*-- scss:defaults --*/
 
-// Dark mode Bootstrap variable layer
-// (styles.scss [data-bs-theme="dark"] handles runtime CSS vars)
+// Dark-mode Bootstrap variable layer.
+// Runtime CSS custom properties live in styles.scss ([data-bs-theme="dark"]).
 
-$body-bg:             #111111;
-$body-color:          #F0EDE8;
-$link-color:          #00A6A8;
-$link-hover-color:    #5ECFCF;
-$headings-color:      #F0EDE8;
+$body-bg:            #0B1120;
+$body-color:         #E2E8F0;
+$link-color:         #2DD4BF;
+$link-hover-color:   #5EEAD4;
+$headings-color:     #F1F5F9;
 
-$navbar-bg:           #004E4F;
-$navbar-fg:           #ffffff;
-$navbar-hl:           #E8F3F3;
+$navbar-bg:          #0B1120;
+$navbar-fg:          #E2E8F0;
+$navbar-hl:          #2DD4BF;
 
-$code-block-bg:       #1A1A1A;
-$code-color:          #5ECFCF;
+$code-block-bg:      #131C2E;
+$code-color:         #5EEAD4;

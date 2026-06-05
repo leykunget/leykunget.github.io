@@ -4,51 +4,59 @@ project:
 
 website:
   title: "Leykun Getaneh"
+  description: "Data Scientist, Statistician & Data Analyst — disease forecasting, public health analytics, and interactive data products."
+  favicon: img/profile_pic.png
 
   navbar:
+    pinned: true
     left:
       - file: index.qmd
         text: "Home"
-      - publication.qmd
-      - resume.qmd
-      - projects.qmd
-      - training.qmd
+      - file: projects.qmd
+        text: "Projects"
+      - file: publication.qmd
+        text: "Publications"
+      - file: resume.qmd
+        text: "Resume"
+      - file: training.qmd
+        text: "Training"
 
-    tools:
-      - icon: twitter
-        href: https://x.com/likutta
-        aria-label: Twitter / X
+    right:
       - icon: github
         href: https://github.com/leykunget
         aria-label: GitHub
-      - icon: envelope
-        href: mailto:leyk.get@gmail.com
-        aria-label: Email
       - icon: linkedin
         href: https://www.linkedin.com/in/leykun-getaneh-gebeye-39a17890/
         aria-label: LinkedIn
+      - icon: twitter-x
+        href: https://x.com/likutta
+        aria-label: Twitter / X
+      - icon: envelope
+        href: mailto:leyk.get@gmail.com
+        aria-label: Email
 
   page-footer:
-    right: "Built with [Quarto](https://quarto.org/)"
+    border: false
     left: "&copy; 2025 Leykun Getaneh"
-    background: "#0E1117"
+    center: "Data Scientist · Statistician · Data Analyst"
+    right: "Built with [Quarto](https://quarto.org/)"
 
 format:
   html:
     grid:
-      body-width: 860px
+      body-width: 900px
       sidebar-width: 220px
       margin-width: 220px
 
     theme:
-      light: [cerulean, styles.scss]
+      light: [cosmo, theme_light_custom.scss, styles.scss]
       dark:  [cosmo, theme_dark_custom.scss, styles.scss]
 
     include-in-header:
       text: |
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
     toc: true
     toc-depth: 3
@@ -56,7 +64,7 @@ format:
     code-link: true
     code-fold: show
     code-tools: false
-    code-block-border-left: "#006D6E"
+    code-block-border-left: "#0D9488"
     code-copy: true
     smooth-scroll: true
     anchor-sections: true
