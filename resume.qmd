@@ -22,7 +22,7 @@ Data Scientist, Statistician, and Data Analyst with 10+ years of experience in a
 
 Experienced in building **predictive models, interactive dashboards, and scalable analytics pipelines** using tools like Shiny, Streamlit, and Quarto.
 
-Focused on applying data science to **disease modeling, forecasting, and public health decision support systems**.
+Focused on applying data science to **disease forecasting, and public health decision support systems**.
 
 ---
 
