@@ -152,7 +152,7 @@ Interactive forecasting system for public health monitoring — real-time visual
 
 ::: {.pcard}
 ::: {.pcard-media .grad}
-<i class="bi bi-diagram-3"></i>
+![](img/hdss_analytics_platform_screenshot.png){fig-alt="hdss analytics Platform"}
 :::
 ::: {.pcard-body}
 [Public Health · HDSS]{.pcard-tag}
